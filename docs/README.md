@@ -15,11 +15,13 @@ https://docs.docker.com/install/linux/linux-postinstall/
 >sudo docker run hello-world
 
 ---
-`# Install openHAB
->sudo groupadd -g 9001 -r openhab<br/>
->sudo useradd -d /opt/openhab -u 9001 -g 9001  -m -r -s /sbin/nologin openhab<br/>
+`# Install openHAB`
+```
+sudo groupadd -g 9001 -r openhab
+sudo useradd -d /opt/openhab -u 9001 -g 9001  -m -r -s /sbin/nologin openhab<br/>
 
->sudo mkdir /opt/openhab/conf<br/>
->sudo mkdir /opt/openhab/userdata<br/>
->sudo mkdir /opt/openhab/addons<br/>
->sudo chown -R openhab:openhab /opt/openhab
+sudo mkdir /opt/openhab/conf
+sudo mkdir /opt/openhab/userdata
+sudo mkdir /opt/openhab/addons
+sudo chown -R openhab:openhab /opt/openhab
+```
