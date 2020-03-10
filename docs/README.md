@@ -46,3 +46,8 @@ sudo docker run \
             --restart=always \
             openhab/openhab:latest-alpine
 ```            
+```
+# Commands
+sudo docker stop openhab
+sudo docker rm openhab
+```
