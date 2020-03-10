@@ -44,7 +44,7 @@ sudo docker run \
             -v /opt/openhab/addons:/openhab/addons \
             -d \
             --restart=always \
-            openhab/openhab:latest-alpine
+            openhab/openhab:latest
 ```            
 ```
 # Commands
