@@ -49,8 +49,6 @@ addonsCfgCheck() {
 
     if [[ "${ACTION}" =~ "Docker" ]]; then
         echo -e "Docker chosen"
-    elif [[ "${ACTION}" =~ "OpenHAB" ]]; then
-        echo -e "OpenHAB chosen"
     fi
 
 #    versions
