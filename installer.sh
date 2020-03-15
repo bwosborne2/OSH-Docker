@@ -24,6 +24,7 @@ userCheck() {
 }
 
 dataDirs() {
+    echo -e "Data Directory Setup"
     sudo mkdir /opt/openhab/conf
     sudo mkdir /opt/openhab/userdata
     sudo mkdir /opt/openhab/addons
