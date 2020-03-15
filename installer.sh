@@ -80,7 +80,7 @@ menu() {
     addonsCfgCheck
 }
 
-
+menu
 
 userCheck
 dataDirs
