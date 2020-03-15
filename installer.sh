@@ -47,7 +47,7 @@ dockerService() {
 
 addonsCfgCheck() {
 
-    if [[ "${ACTION}" =~ "OpenHAB"]]; then
+    if [[ "${ACTION}" =~ "OpenHAB" ]]; then
         echo -e "OpenHAB chosen"
 	elif [[ "${ACTION}" =~ "docker]]; then
         echo -e "OpenHAB chosen"
