@@ -24,13 +24,8 @@ sudo docker run hello-world
 ```
 # Install openHAB
 
-sudo groupadd -g 9001 -r openhab
-sudo useradd -d /opt/openhab -u 9001 -g 9001  -m -r -s /sbin/nologin openhab
 
-sudo mkdir /opt/openhab/conf
-sudo mkdir /opt/openhab/userdata
-sudo mkdir /opt/openhab/addons
-sudo chown -R openhab:openhab /opt/openhab
+curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/installer.sh" | sudo bash -s --
 ```
 
 ```
