@@ -5,8 +5,8 @@ Requires=docker.service
 Type=simple
 Restart=always
 RestartSec=5s
-ExecStarPret=-/usr/bin/docker stop openhab
-ExecStart=/usr/sbin/openHAB
+ExecStarPree=-/usr/bin/docker stop openhab
+ExecStart=/opt/openhab/docker/openHAB
 ExecStop=-/usr/bin/docker stop openhab
 
 [Install]
