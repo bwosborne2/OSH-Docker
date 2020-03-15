@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenHAB 2
+Requires=docker.service
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+ExecStarPret=-/usr/bin/docker stop openhab
+ExecStart=/usr/sbin/openHAB
+ExecStop=-/usr/bin/docker stop openhab
+
+[Install]
+WantedBy=multi-user.target
