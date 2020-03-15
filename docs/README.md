@@ -40,7 +40,7 @@ sudo systemctl stop openhab
 ```
 
 ```
-# To cleanup
+# To clean up
 sudo systemctl stop openhab
 sudo systemctl disable openhab
 sudo rm /etc/systemd/system/openhab.service
