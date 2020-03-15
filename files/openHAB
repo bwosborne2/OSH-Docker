@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+
+runOpenHAB() {
+    docker rm --force openhab || true
+
+    docker run \
+            --name openhab \
+            --net=host \
+            -v /etc/localtime:/etc/localtime:ro \
+            -v /etc/timezone:/etc/timezone:ro \
+            -v /opt/openhab/conf:/openhab/conf \
+            -v /opt/openhab/userdata:/openhab/userdata \
+            -v /opt/openhab/addons:/openhab/addons \
+            -d \
+            --restart=always \
+            openhab/openhab:latest
+}
+
+# Run openHAB
+runOpenHAB
