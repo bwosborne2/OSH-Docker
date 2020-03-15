@@ -45,6 +45,45 @@ dockerService() {
     systemctl enable openhab.service
 }
 
+addonsCfgCheck() {
+
+    if [[ "${ACTION}" =~ "OpenHAB"]]; then
+        echo -e "OpenHAB chosen"
+	elif [[ "${ACTION}" =~ "docker]]; then
+        echo -e "OpenHAB chosen"
+	fi
+
+#    versions
+}
+
+
+menu() {
+    CURRENT_ACCOUNT=$(whoami)
+    clear
+    if [[ "${CURRENT_ACCOUNT}" != "openhab" ]]; then
+        echo; echo -e "${BLINKING}!!!!!${GREY_RED} This script MUST be executed by the account that runs openHAB, typically 'openhab' ${BLINKING}!!!!!${NC}"
+        select choice in "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" "Exit"; do
+            case $choice in
+                "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" ) break;;
+                "Exit" ) exit; break;;
+            esac
+        done
+    fi
+
+    echo; echo -e "${GREEN_DARK}What would you like to do?${NC}"
+    select ACTION in "Install or upgrade Zigbee binding" "Install or upgrade Z-Wave binding" "Install or upgrade both bindings" "Install serial transport" "Uninstall Zigbee binding" "Uninstall Z-Wave binding" "Uninstall both bindings" "Exit"; do
+        case $ACTION in
+            "Install Docker" ) break;;
+            "Install OpenHAB" ) break;;
+            "Exit" ) echo; exit;;
+        esac
+    done
+
+    addonsCfgCheck
+}
+
+
+
 userCheck
 dataDirs
 dockerService
