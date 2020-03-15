@@ -69,7 +69,7 @@ menu() {
     fi
 
     echo; echo -e "${GREEN_DARK}What would you like to do?${NC}"
-    select ACTION in "Install or upgrade Zigbee binding" "Install or upgrade Z-Wave binding" "Install or upgrade both bindings" "Install serial transport" "Uninstall Zigbee binding" "Uninstall Z-Wave binding" "Uninstall both bindings" "Exit"; do
+    select ACTION in "Install Docker" "Install OpenHAB" "Exit"; do
         case $ACTION in
             "Install Docker" ) break;;
             "Install OpenHAB" ) break;;
