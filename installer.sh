@@ -11,8 +11,8 @@ NC='\033[0m' # Reset
 
 SILENT=false
 
-URL_BIN_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master//openHAB"
-URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/openhab.service"
+URL_BIN_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openHAB"
+URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 
 userCheck() {
