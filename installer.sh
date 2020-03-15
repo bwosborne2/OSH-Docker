@@ -11,6 +11,9 @@ NC='\033[0m' # Reset
 
 SILENT=false
 
+URL_BIN_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master//openHAB"
+URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/openhab.service"
+
 
 userCheck() {
 #    sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
@@ -34,7 +37,9 @@ dataDirs() {
 }
 
 dockerService() {
-    echo -e "Docker Service Setup"
+    echo "[Info] Install openHAB startup scripts"
+    curl -sL ${URL_BIN_OPENHAB} > /opt/openhab/docker/openHAB
+    curl -sL ${URL_SERVICE_OPENHAB} > /opt/openhab/docker/openhab.service
 }
 
 userCheck
