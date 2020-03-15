@@ -49,3 +49,4 @@ userCheck
 dataDirs
 dockerService
 systemctl start openhab
+docker container ls
