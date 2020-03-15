@@ -26,23 +26,24 @@ sudo docker run hello-world
 
 
 curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/installer.sh" | sudo bash -s --
+
+# Wait 1 minute & check
+sudo docker container ls
+
+```
+
+         
+```
+# Commands
+sudo systemctl status openhab
+sudo systemctl stop openhab
 ```
 
 ```
-sudo docker run \
-            --name openhab \
-            --net=host \
-            -v /etc/localtime:/etc/localtime:ro \
-            -v /etc/timezone:/etc/timezone:ro \
-            -v /opt/openhab/conf:/openhab/conf \
-            -v /opt/openhab/userdata:/openhab/userdata \
-            -v /opt/openhab/addons:/openhab/addons \
-            -d \
-            --restart=always \
-            openhab/openhab:latest
-```            
-```
-# Commands
-sudo docker stop openhab
-sudo docker rm openhab
+# To cleanup
+sudo systemctl stop openhab
+sudo systemctl disable openhab
+sudo rm /etc/systemd/system/openhab.service
+
+sudo userdel -r openhab
 ```
