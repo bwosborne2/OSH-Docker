@@ -31,13 +31,14 @@ dataDirs() {
     sudo mkdir /opt/openhab/conf
     sudo mkdir /opt/openhab/userdata
     sudo mkdir /opt/openhab/addons
+    sudo mkdir /opt/openhab/docker
     sudo chown -R openhab:openhab /opt/openhab
 
 }
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    curl -sL ${URL_BIN_OPENHAB} > /usr/sbin//openHAB
+    curl -sL ${URL_BIN_OPENHAB} > /opt/openhab/docker/openHAB
     curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
     
     chmod a+x /opt/openhab/docker/openHAB
