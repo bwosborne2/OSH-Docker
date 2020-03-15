@@ -38,3 +38,4 @@ dockerService() {
 
 userCheck
 dataDirs
+dockerService
