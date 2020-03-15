@@ -49,5 +49,6 @@ userCheck
 dataDirs
 dockerService
 systemctl start openhab
-sleep 10
+echo -e "sleeping..."
+sleep 20
 docker container ls
