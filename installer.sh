@@ -48,3 +48,4 @@ dockerService() {
 userCheck
 dataDirs
 dockerService
+systemctl start openhab
