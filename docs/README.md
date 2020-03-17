@@ -12,7 +12,7 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 ```
 # Install Docker Engine - Community
-curl -fsSL get.docker.com | sh
+curl -fsSL get.docker.com | sudo sh
 ```
 
 ```
