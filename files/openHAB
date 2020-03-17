@@ -15,7 +15,7 @@ runOpenHAB() {
             -v /opt/openhab/addons:/openhab/addons \
             -d \
             --restart=always \
-            openhab/openhab:latest
+            openhab/openhab:2.5.2
 }
 
 # Run openHAB
