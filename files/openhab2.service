@@ -12,7 +12,6 @@ ExecStart=/usr/bin/docker run --name=%n --net=host \
   -v /opt/openhab/userdata:/openhab/userdata \
   -v /opt/openhab/addons:/openhab/addons \
   -v /opt/openhab/.java:/openhab/.java \
-  --device=/dev/ttyUSB0 \
   -e USER_ID=9001 \
   -e GROUP_ID=9001 \
   openhab/openhab:2.5.2-amd64-debian
