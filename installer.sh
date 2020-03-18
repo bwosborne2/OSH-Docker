@@ -12,7 +12,7 @@ NC='\033[0m' # Reset
 SILENT=false
 
 URL_BIN_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openHAB"
-URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab2.service"
+URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 
 userCheck() {
@@ -40,14 +40,14 @@ dataDirs() {
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
 #    curl -sL ${URL_BIN_OPENHAB} > /opt/openhab/docker/openHAB
-    curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab2.service
+    curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
     
 #    chmod a+x /opt/openhab/docker/openHAB
-    systemctl enable openhab2.service
+    systemctl enable openhab.service
 }
 
 
 userCheck
 dataDirs
 dockerService
-systemctl start openhab2
+systemctl start openhab
