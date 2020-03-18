@@ -17,7 +17,7 @@ URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/mas
 
 userCheck() {
 #    sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
-#    sudo groupadd -g 9001 -r openhab
+    sudo groupadd -g 9001 -r openhab
     sudo useradd -d /opt/openhab -u 9001 -g 9001  -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
@@ -45,40 +45,6 @@ dockerService() {
     systemctl enable openhab.service
 }
 
-addonsCfgCheck() {
-
-    if [[ "${ACTION}" =~ "Docker" ]]; then
-        echo -e "Docker chosen"
-    fi
-
-#    versions
-}
-
-
-menu() {
-    CURRENT_ACCOUNT=$(whoami)
-    clear
-    if [[ "${CURRENT_ACCOUNT}" != "openhab" ]]; then
-        echo; echo -e "${BLINKING}!!!!!${GREY_RED} This script MUST be executed by the account that runs openHAB, typically 'openhab' ${BLINKING}!!!!!${NC}"
-        select choice in "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" "Exit"; do
-            case $choice in
-                "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" ) break;;
-                "Exit" ) exit; break;;
-            esac
-        done
-    fi
-
-    echo; echo -e "${GREEN_DARK}What would you like to do?${NC}"
-    select ACTION in "Install Docker" "Install OpenHAB" "Exit"; do
-        case $ACTION in
-            "Install Docker" ) break;;
-            "Install OpenHAB" ) break;;
-            "Exit" ) echo; exit;;
-        esac
-    done
-
-    addonsCfgCheck
-}
 
 userCheck
 dataDirs
