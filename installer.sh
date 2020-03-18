@@ -11,7 +11,6 @@ NC='\033[0m' # Reset
 
 SILENT=false
 
-URL_BIN_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openHAB"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 
@@ -39,10 +38,9 @@ dataDirs() {
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-#    curl -sL ${URL_BIN_OPENHAB} > /opt/openhab/docker/openHAB
     curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
-    
-#    chmod a+x /opt/openhab/docker/openHAB
+
+    systemctl daemon-reload
     systemctl enable openhab.service
 }
 
