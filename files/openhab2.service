@@ -1,0 +1,22 @@
+[Unit]
+Description=openHAB 2
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker run --name=%n --net=host \
+  -v /etc/localtime:/etc/localtime:ro \
+  -v /etc/timezone:/etc/timezone:ro \
+  -v /opt/openhab/conf:/openhab/conf \
+  -v /opt/openhab/userdata:/openhab/userdata \
+  -v /opt/openhab/addons:/openhab/addons \
+  -v /opt/openhab/.java:/openhab/.java \
+  --device=/dev/ttyUSB0 \
+  -e USER_ID=9001 \
+  -e GROUP_ID=9001 \
+  openhab/openhab:2.5.2-amd64-debian
+ExecStop=/usr/bin/docker stop -t 2 %n ; /usr/bin/docker rm -f %n
+
+[Install]
+WantedBy=multi-user.target
