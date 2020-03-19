@@ -1,16 +1,6 @@
 #!/usr/bin/env bash
 SCRIPT_VERSION=.0.0.1
 
-GREY_RED='\033[0;37;41m'
-GREEN_DARK='\033[0;32;40m'
-BLUE_DARK='\033[1;34;40m'
-BLACK_WHITE='\033[1;30;47m'
-RED_WHITE='\033[1;31;47m'
-BLINKING='\033[5;37;41m'
-NC='\033[0m' # Reset
-
-SILENT=false
-
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 
@@ -42,46 +32,6 @@ dockerService() {
 
     systemctl daemon-reload
     systemctl enable openhab.service
-}
-
-addonsCfgCheck() {
-
-        if [[ "${ACTION}" =~ "OpenHAB" ]]; then
-        echo -e "OpenHAB chosen"
-        elif [[ "${ACTION}" =~ "Docker" ]]; then
-        echo -e "Docker chosen"
-        fi
-
-#    versions
-}
-
-
-menu() {
-    CURRENT_ACCOUNT=$(whoami)
-    clear
-    if [[ "${CURRENT_ACCOUNT}" != "openhab" ]]; then
-        echo; echo -e "${BLINKING}!!!!!${GREY_RED} This script MUST be executed
-by the account that runs openHAB, typically 'openhab' ${BLINKING}!!!!!${NC}"
-        select choice in "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\"
-)" "Exit"; do
-            case $choice in
-                "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" ) brea
-k;;
-                "Exit" ) echo; exit;;
-            esac
-        done
-    fi
-
-    echo; echo -e "${GREEN_DARK}What would you like to do?${NC}"
-    select ACTION in "Install Docker" "Install OpenHAB" "Exit"; do
-        case $ACTION in
-            "Install Docker" ) break;;
-            "Install OpenHAB" ) break;;
-            "Exit" ) echo; exit;;
-        esac
-    done
-
-    addonsCfgCheck
 }
 
 userCheck
