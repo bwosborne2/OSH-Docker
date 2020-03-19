@@ -46,30 +46,34 @@ dockerService() {
 
 addonsCfgCheck() {
 
-    if [[ "${ACTION}" =~ "OpenHAB"]]; then
+        if [[ "${ACTION}" =~ "OpenHAB" ]]; then
         echo -e "OpenHAB chosen"
-	elif [[ "${ACTION}" =~ "docker]]; then
-        echo -e "OpenHAB chosen"
-	fi
+        elif [[ "${ACTION}" =~ "Docker" ]]; then
+        echo -e "Docker chosen"
+        fi
 
 #    versions
 }
+
 
 menu() {
     CURRENT_ACCOUNT=$(whoami)
     clear
     if [[ "${CURRENT_ACCOUNT}" != "openhab" ]]; then
-        echo; echo -e "${BLINKING}!!!!!${GREY_RED} This script MUST be executed by the account that runs openHAB, typically 'openhab' ${BLINKING}!!!!!${NC}"
-        select choice in "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" "Exit"; do
+        echo; echo -e "${BLINKING}!!!!!${GREY_RED} This script MUST be executed
+by the account that runs openHAB, typically 'openhab' ${BLINKING}!!!!!${NC}"
+        select choice in "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\"
+)" "Exit"; do
             case $choice in
-                "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" ) break;;
-                "Exit" ) exit; break;;
+                "Continue (my openHAB account is \"${CURRENT_ACCOUNT}\")" ) brea
+k;;
+                "Exit" ) echo; exit;;
             esac
         done
     fi
 
     echo; echo -e "${GREEN_DARK}What would you like to do?${NC}"
-    select ACTION in "Install or upgrade Zigbee binding" "Install or upgrade Z-Wave binding" "Install or upgrade both bindings" "Install serial transport" "Uninstall Zigbee binding" "Uninstall Z-Wave binding" "Uninstall both bindings" "Exit"; do
+    select ACTION in "Install Docker" "Install OpenHAB" "Exit"; do
         case $ACTION in
             "Install Docker" ) break;;
             "Install OpenHAB" ) break;;
