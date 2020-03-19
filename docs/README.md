@@ -27,8 +27,6 @@ sudo docker run hello-world
 
 curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/installer.sh" | sudo bash -s --
 
-# Wait 1 minute & check
-sudo docker container ls
 
 ```
 
