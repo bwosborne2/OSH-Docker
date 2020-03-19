@@ -84,6 +84,8 @@ k;;
     addonsCfgCheck
 }
 
+menu
+
 userCheck
 dataDirs
 dockerService
