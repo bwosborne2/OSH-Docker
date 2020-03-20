@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 SCRIPT_VERSION=.0.0.1
 
+URL_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openHAB"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 
@@ -28,6 +29,7 @@ dataDirs() {
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
+    curl -sL ${URL_OPENHAB} > /opt/openhab/docker/openhab.service
     curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
 
     systemctl daemon-reload
