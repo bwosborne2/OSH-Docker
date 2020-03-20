@@ -5,16 +5,8 @@ After=docker.service
 
 [Service]
 Restart=always
-ExecStart=/usr/bin/docker run --name=%n --net=host \
-  -v /etc/localtime:/etc/localtime:ro \
-  -v /etc/timezone:/etc/timezone:ro \
-  -v /opt/openhab/conf:/openhab/conf \
-  -v /opt/openhab/userdata:/openhab/userdata \
-  -v /opt/openhab/addons:/openhab/addons \
-  -e USER_ID=9001 \
-  -e GROUP_ID=9001 \
-  openhab/openhab:2.5.3-amd64-debian
-ExecStop=/usr/bin/docker stop -t 2 %n ; /usr/bin/docker rm -f %n
+ExecStart=/opt/openhab/docker/openHAB
+ExecStop=-/usr/bin/docker stop -t 2 openhab ; /usr/bin/docker rm -f openhab
 
 [Install]
 WantedBy=multi-user.target
