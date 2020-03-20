@@ -29,7 +29,8 @@ dataDirs() {
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    curl -sL ${URL_OPENHAB} > /opt/openhab/docker/openhab.service
+    curl -sL ${URL_OPENHAB} > /opt/openhab/docker/openHAB
+    chmod +x /opt/openhab/docker/openHAB
     curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
 
     systemctl daemon-reload
