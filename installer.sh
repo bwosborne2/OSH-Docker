@@ -35,16 +35,13 @@ dockerConfig() {
     CONFIG=/opt/openhab/docker/install.conf
 
     echo -e "In dockerConfig"
-    echo -e "User: $ID"
-    echo -e "Group: $GR"
-
 # Write configuration
 cat > "$CONFIG" <<- EOF
 {
     "USER_ID": "${ID}",
-	"GROUP_ID": "${GR}",
-	"ARCH": "amd64",
-	"OH_VERSION": "2.5.3"
+    "GROUP_ID": "${GR}",
+    "ARCH": "amd64",
+    "OH_VERSION": "2.5.3"
 
 }
 EOF
