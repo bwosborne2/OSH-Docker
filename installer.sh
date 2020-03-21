@@ -9,9 +9,9 @@ ID=9999
 GR=9999
 
 userCheck() {
-#    sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
-    sudo groupadd -g 9001 -r openhab
-    sudo useradd -d /opt/openhab -u 9001 -g 9001  -m -r -s /sbin/nologin openhab
+    sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
+#    sudo groupadd -g 9001 -r openhab
+#    sudo useradd -d /opt/openhab -u 9001 -g 9001  -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
     echo -e "User: $ID"
