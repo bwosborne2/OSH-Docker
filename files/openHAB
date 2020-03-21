@@ -1,6 +1,13 @@
 #!/bin/sh
 set -e
 
+# Load configs
+CONFIG_FILE="/opt/openhab/docker/install.conf
+
+USER_ID="$(jq --raw-output 'USER_ID' ${CONFIG_FILE})"
+GROUP_ID="$(jq --raw-output 'GROUP_ID' ${CONFIG_FILE})"
+ARCH="$(jq --raw-output 'ARCH' ${CONFIG_FILE})"
+OH_VERSION="$(jq --raw-output 'OH_VERSION' ${CONFIG_FILE})"
 
 runOpenHAB() {
     docker rm --force openhab || true
