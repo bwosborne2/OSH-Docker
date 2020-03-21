@@ -32,7 +32,11 @@ dataDirs() {
 
 dockerConfig() {
 
-CONFIG=/opt/openhab/docker/install.conf
+    CONFIG=/opt/openhab/docker/install.conf
+
+    echo -e "In dockerConfig"
+    echo -e "User: $ID"
+    echo -e "Group: $GR"
 
 # Write configuration
 cat > "$CONFIG" <<- EOF
