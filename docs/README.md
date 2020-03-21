@@ -24,6 +24,7 @@ sudo docker run hello-world
 ```
 # Install openHAB
 
+sudo apt-get install jq -y 
 
 curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/installer.sh" | sudo bash -s --
 
