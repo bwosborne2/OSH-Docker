@@ -41,8 +41,8 @@ dockerConfig() {
 # Write configuration
 cat > "$CONFIG" <<- EOF
 {
-    "USER_ID": "$ID",
-	"GROUP_ID": "$GR",
+    "USER_ID": "${ID}",
+	"GROUP_ID": "${GR}",
 	"ARCH": "amd64",
 	"OH_VERSION": "2.5.3"
 
