@@ -28,9 +28,25 @@ dataDirs() {
 
 }
 
+dockerConfig() {
+
+CONFIG=/opt/openhab/docker/install.conf
+
+# Write configuration
+cat > "$CONFIG" <<- EOF
+{
+    "USER_ID": "$(ID)",
+	"GROUP_ID": "$(GR)",
+	"ARCH": "amd64",
+	"OH_VERSION": "2.5.3"
+
+}
+EOF
+}
+
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    curl -sL ${URL_CONFIG} > /opt/openhab/docker/install.conf
+ #   curl -sL ${URL_CONFIG} > /opt/openhab/docker/install.conf
     curl -sL ${URL_OPENHAB} > /opt/openhab/docker/openHAB
     chmod +x /opt/openhab/docker/openHAB
     curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
@@ -41,5 +57,6 @@ dockerService() {
 
 userCheck
 dataDirs
+dockerConfig
 dockerService
 systemctl start openhab
