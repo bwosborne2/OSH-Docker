@@ -5,6 +5,8 @@ URL_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/file
 URL_CONFIG="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/install.conf"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
+ID=9999
+GR=9999
 
 userCheck() {
 #    sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
