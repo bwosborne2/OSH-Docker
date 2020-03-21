@@ -2,7 +2,7 @@
 set -e
 
 # Load configs
-CONFIG_FILE="/opt/openhab/docker/install.conf
+CONFIG_FILE="/opt/openhab/docker/install.conf"
 
 USER_ID="$(jq --raw-output 'USER_ID' ${CONFIG_FILE})"
 GROUP_ID="$(jq --raw-output 'GROUP_ID' ${CONFIG_FILE})"
