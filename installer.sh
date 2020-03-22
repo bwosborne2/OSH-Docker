@@ -31,7 +31,7 @@ cat > "$CONFIG" <<- EOF
 {
     "USER_ID": "${ID}",
     "GROUP_ID": "${GR}",
-    "ARCH": "amd64",
+    "ARCH": "N/A",
     "OH_VERSION": "2.5.3"
 
 }
