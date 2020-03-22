@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 SCRIPT_VERSION=.0.0.1
 
-URL_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openHAB"
-URL_CONFIG="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/install.conf"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 userCheck() {
@@ -28,20 +26,16 @@ dockerConfig() {
     echo -e "In dockerConfig"
 # Write configuration
 cat > "$CONFIG" <<- EOF
-{
-    "USER_ID": "${ID}",
-    "GROUP_ID": "${GR}",
-    "ARCH": "N/A",
-    "OH_VERSION": "2.5.3"
-
-}
+# OpenHAB service environment
+USER_ID=${ID}
+GROUP_ID=${GR}
+OH_VERSION=2.5.3
+ARCH=amd64
 EOF
 }
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    curl -sL ${URL_OPENHAB} > /opt/openhab/docker/openHAB
-    chmod +x /opt/openhab/docker/openHAB
     curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
 
     systemctl daemon-reload
