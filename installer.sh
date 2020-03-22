@@ -53,3 +53,5 @@ dataDirs
 dockerConfig
 dockerService
 systemctl start openhab
+systemctl daemon-reload
+
