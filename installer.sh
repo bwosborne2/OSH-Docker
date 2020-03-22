@@ -24,7 +24,6 @@ dataDirs() {
     sudo mkdir /opt/openhab/conf
     sudo mkdir /opt/openhab/userdata
     sudo mkdir /opt/openhab/addons
-    sudo mkdir /opt/openhab/.java
     sudo mkdir /opt/openhab/docker
     sudo chown -R openhab:openhab /opt/openhab
 
