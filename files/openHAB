@@ -20,8 +20,10 @@ runOpenHAB() {
       -v /opt/openhab/conf:/openhab/conf \
       -v /opt/openhab/userdata:/openhab/userdata \
       -v /opt/openhab/addons:/openhab/addons \
+      -d \
       -e USER_ID=${USER_ID} \
       -e GROUP_ID=${GROUP_ID} \
+      --restart=always \
       openhab/openhab:2.5.3-amd64-debian
 }
 
