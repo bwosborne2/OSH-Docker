@@ -7,6 +7,7 @@ userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
+    AR=`dpkg --print-architecture`
 }
 
 dataDirs() {
@@ -30,7 +31,7 @@ cat > "$CONFIG" <<- EOF
 USER_ID=${ID}
 GROUP_ID=${GR}
 OH_VERSION=2.5.3
-ARCH=amd64
+ARCH=${AR}
 EOF
 }
 
