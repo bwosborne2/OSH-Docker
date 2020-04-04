@@ -6,6 +6,10 @@ https://docs.docker.com/install/linux/linux-postinstall/
 
 ## Debian amd64
 ```
+# Preparation
+su -
+apt-get install sudo curl
+
 # Uninstall old versions, if they exist
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
@@ -24,10 +28,7 @@ sudo docker run hello-world
 ```
 # Install openHAB
 
-sudo apt-get install jq -y 
-
 curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/installer.sh" | sudo bash -s --
-
 
 ```
 
