@@ -36,7 +36,7 @@ sudo apt-get install -y docker-compose
 curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/installer.sh" | sudo bash -s --
 
 ```
-
+---
          
 ```
 # Commands
