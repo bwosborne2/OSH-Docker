@@ -14,6 +14,7 @@ adduser {username] sudo
 ```
 # Relogin as [username]
 ```
+```
 # Uninstall old versions, if they exist
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
