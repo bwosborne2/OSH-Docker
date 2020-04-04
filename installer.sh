@@ -2,7 +2,7 @@
 SCRIPT_VERSION=.0.0.2
 
 # Local Paths
-URL_DOCKER_COMPOSE="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/filess/docker-compose.yml"
+URL_DOCKER_COMPOSE="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/docker-compose.yml"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 userCheck() {
