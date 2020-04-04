@@ -24,7 +24,7 @@ dataDirs() {
 
 dockerConfig() {
 
-    CONFIG/opt/openhab/docker/.env
+    CONFIG=/opt/openhab/docker/.env
     
     echo -e "In dockerConfig"
 # Write configuration
