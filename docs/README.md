@@ -12,7 +12,7 @@ apt-get install sudo curl
 adduser {username] sudo
 ```
 ```
-# Relogin ad username
+# Relogin as [username]
 ```
 # Uninstall old versions, if they exist
 sudo apt-get remove docker docker-engine docker.io containerd runc
