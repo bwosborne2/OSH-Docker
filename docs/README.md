@@ -9,7 +9,11 @@ https://docs.docker.com/install/linux/linux-postinstall/
 # Preparation
 su -
 apt-get install sudo curl
-
+adduser {username] sudo
+```
+```
+# Relogin ad username
+```
 # Uninstall old versions, if they exist
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
