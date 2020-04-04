@@ -17,6 +17,7 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 # Install Docker Engine - Community
 curl -fsSL get.docker.com | sudo sh
+sudo apt-get install -y docker-compose
 ```
 
 ```
