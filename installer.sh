@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-SCRIPT_VERSION=.0.0.1
+SCRIPT_VERSION=.0.0.2
 
+# Local Paths
+URL_DOCKER_COMPOSE="/home/bwo/OSH-Docker/files/docker-compose.yml"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 userCheck() {
@@ -22,8 +24,8 @@ dataDirs() {
 
 dockerConfig() {
 
-    CONFIG=/opt/openhab/docker/install.conf
-
+    CONFIG/opt/openhab/docker/.env
+    
     echo -e "In dockerConfig"
 # Write configuration
 cat > "$CONFIG" <<- EOF
@@ -37,7 +39,8 @@ EOF
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    curl -sL ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
+    cp ${URL_DOCKER_COMPOSE}  /opt/openhab/docker
+    cp ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
 
     systemctl daemon-reload
     systemctl enable openhab.service
@@ -48,5 +51,3 @@ dataDirs
 dockerConfig
 dockerService
 systemctl start openhab
-systemctl daemon-reload
-
