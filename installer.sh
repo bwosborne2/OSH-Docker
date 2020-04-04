@@ -39,7 +39,7 @@ EOF
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    curl -sL  ${URL_DOCKER_COMPOSE}  /opt/openhab/docker/docker-compose.yml
+    curl -sL  ${URL_DOCKER_COMPOSE} > /opt/openhab/docker/docker-compose.yml
     curl -sL  ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
 
     systemctl daemon-reload
