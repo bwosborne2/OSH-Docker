@@ -2,7 +2,7 @@
 SCRIPT_VERSION=.0.0.2
 
 # Local Paths
-URL_DOCKER_COMPOSE="/home/bwo/OSH-Docker/files/docker-compose.yml"
+URL_DOCKER_COMPOSE=""https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/filess/docker-compose.yml"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
 
 userCheck() {
@@ -39,8 +39,8 @@ EOF
 
 dockerService() {
     echo "[Info] Install openHAB startup scripts"
-    cp ${URL_DOCKER_COMPOSE}  /opt/openhab/docker
-    cp ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
+    curl -sL  ${URL_DOCKER_COMPOSE}  /opt/openhab/docker
+    curl -sL  ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
 
     systemctl daemon-reload
     systemctl enable openhab.service
