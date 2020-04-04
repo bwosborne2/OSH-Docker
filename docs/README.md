@@ -50,4 +50,7 @@ sudo systemctl disable openhab
 sudo rm /etc/systemd/system/openhab.service
 
 sudo userdel -r openhab
+
+# Clean up Docker
+sudo docker system prune
 ```
