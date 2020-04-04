@@ -43,7 +43,7 @@ curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/install
 sudo systemctl status openhab
 sudo systemctl stop openhab
 ```
-
+---
 ```
 # To clean up
 sudo systemctl stop openhab
