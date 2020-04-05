@@ -5,6 +5,9 @@ services:
     image: "openhab/openhab:${OH_VERSION}-${ARCH}-debian"
     restart: always
     network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "/etc/timezone:/etc/timezone:ro"
@@ -16,3 +19,7 @@ services:
       GROUP_ID: ${GROUP_ID}
       OPENHAB_HTTP_PORT: "8080"
       OPENHAB_HTTPS_PORT: "8443"
+    # The command node is very important. It overrides
+    # the "gosu openhab tini -s ./start.sh" command from Dockerfile and runs as root!
+    command: "tini -s ./start.sh server"
+    
