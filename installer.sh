@@ -18,6 +18,8 @@ dataDirs() {
     sudo mkdir /opt/openhab/userdata
     sudo mkdir /opt/openhab/addons
     sudo mkdir /opt/openhab/docker
+    sudo mkdir /opt/openhab/etc
+    sudo mkdir /opt/openhab/etc/cont-init.d
     sudo chown -R openhab:openhab /opt/openhab
 
 }
