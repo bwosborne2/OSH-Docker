@@ -16,6 +16,7 @@ services:
       - "/opt/openhab/addons:/openhab/addons"
       - "/opt/openhab/conf:/openhab/conf"
       - "/opt/openhab/userdata:/openhab/userdata"
+      - "/opt/openhab/etc/cont-init.d:/etc/cont-init.d"
     environment:
       USER_ID: ${USER_ID}
       GROUP_ID: ${GROUP_ID}
