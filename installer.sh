@@ -4,6 +4,7 @@ SCRIPT_VERSION=.0.0.2
 # Local Paths
 URL_DOCKER_COMPOSE="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/docker-compose.yml"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
+URL_SCRIPT_OPENHABCLOUD="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/40-openhabcloud"
 
 userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
@@ -43,6 +44,8 @@ dockerService() {
     echo "[Info] Install openHAB startup scripts"
     curl -sL  ${URL_DOCKER_COMPOSE} > /opt/openhab/docker/docker-compose.yml
     curl -sL  ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
+    curl -sL  ${URL_SCRIPT_OPENHABCLOUD} > /opt/openhab/etc/cont-init.d/40-openhabcloud
+    chmod +x /opt/openhab/etc/cont-init.d/40-openhabcloud
 
     systemctl daemon-reload
     systemctl enable openhab.service
