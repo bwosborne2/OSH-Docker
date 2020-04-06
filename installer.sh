@@ -4,7 +4,6 @@ SCRIPT_VERSION=.0.0.2
 # Local Paths
 URL_DOCKER_COMPOSE="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/docker-compose.yml"
 URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
-URL_SCRIPT_OPENHABCLOUD="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/40-openhabcloud"
 
 userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
@@ -19,8 +18,6 @@ dataDirs() {
     sudo mkdir /opt/openhab/userdata
     sudo mkdir /opt/openhab/addons
     sudo mkdir /opt/openhab/docker
-    sudo mkdir /opt/openhab/etc
-    sudo mkdir /opt/openhab/etc/cont-init.d
     sudo chown -R openhab:openhab /opt/openhab
 
 }
@@ -47,6 +44,10 @@ dockerService() {
 
     systemctl daemon-reload
     systemctl enable openhab.service
+    
+    echo "Downloading Docker Image"
+    cd /opt/openhab/docker
+    docker-compose up --no-start
 }
 
 userCheck
