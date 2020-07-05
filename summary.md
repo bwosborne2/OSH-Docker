@@ -61,11 +61,11 @@ and links to more detailed information about each thing.
 | AEON Labs | [ZW056](aeon/zw056_0_0.md) |  | ```aeon_zw056_00_000``` | Battery |
 | AEON Labs | [ZW062](aeon/zw062_0_0.md) |  | ```aeon_zw062_00_000``` | Battery |
 | AEON Labs | [ZW074](aeon/zw074_0_0.md) |  | ```aeon_zw074_00_000``` | Battery |
-| AEON Labs | [ZW075](aeon/zw075_0_0.md) | 3.-2996 | ```aeon_zw075_00_000``` | Battery |
-| AEON Labs | [ZW075](aeon/zw075_4_-3996.md) | 4.-3996 | ```aeon_zw075_04_000``` | Battery |
+| AEON Labs | [ZW075](aeon/zw075_0_0.md) | 3.999 | ```aeon_zw075_00_000``` | Battery |
+| AEON Labs | [ZW075](aeon/zw075_4_0.md) | 4.0 | ```aeon_zw075_04_000``` | Battery |
 | AEON Labs | [ZW078](aeon/zw078_0_0.md) |  | ```aeon_zw078_00_000``` | Battery |
 | AEON Labs | [ZW080](aeon/zw080_0_0.md) |  | ```aeon_zw080_00_000``` | Battery |
-| AEON Labs | [ZW088](aeon/zw088_1_-999.md) | 1.-999 | ```aeon_zw088_01_000``` | Battery |
+| AEON Labs | [ZW088](aeon/zw088_1_0.md) | 1.0 | ```aeon_zw088_01_000``` | Battery |
 | AEON Labs | [ZW089](aeon/zw089_0_0.md) |  | ```aeon_zw089_00_000``` | Battery |
 | AEON Labs | [ZW090](aeon/zw090_0_0.md) |  | ```aeon_zw090_00_000``` | Battery |
 | AEON Labs | [ZW095](aeon/zw095_0_0.md) |  | ```aeon_zw095_00_000``` | Battery |
@@ -73,28 +73,28 @@ and links to more detailed information about each thing.
 | AEON Labs | [ZW097](aeon/zw097_0_0.md) |  | ```aeon_zw097_00_000``` | Battery |
 | AEON Labs | [ZW098](aeon/zw098_0_0.md) |  | ```aeon_zw098_00_000``` | Battery |
 | AEON Labs | [ZW099](aeon/zw099_0_0.md) |  | ```aeon_zw099_00_000``` | Battery |
-| AEON Labs | [ZW100](aeon/zw100_0_0.md) | 1.-999 | ```aeon_zw100_00_000``` | Battery |
-| AEON Labs | [ZW100](aeon/zw100_1_-999.md) | 1.-999 to 1.-999 | ```aeon_zw100_01_007``` | Battery |
-| AEON Labs | [ZW100](aeon/zw100_1_-999.md) | 1.-999 to 1.-999 | ```aeon_zw100_01_008``` | Battery |
-| AEON Labs | [ZW100](aeon/zw100_1_-999.md) | 1.-999 | ```aeon_zw100_01_010``` | Battery |
-| AEON Labs | [ZW111](aeon/zw111_0_0.md) | 2.-1998 | ```aeon_zw111_00_000``` | Battery |
-| AEON Labs | [ZW111](aeon/zw111_2_-1998.md) | 2.-1998 | ```aeon_zw111_02_003``` | Battery |
+| AEON Labs | [ZW100](aeon/zw100_0_0.md) | 1.6 | ```aeon_zw100_00_000``` | Battery |
+| AEON Labs | [ZW100](aeon/zw100_1_7.md) | 1.7 to 1.7 | ```aeon_zw100_01_007``` | Battery |
+| AEON Labs | [ZW100](aeon/zw100_1_8.md) | 1.8 to 1.9 | ```aeon_zw100_01_008``` | Battery |
+| AEON Labs | [ZW100](aeon/zw100_1_10.md) | 1.10 | ```aeon_zw100_01_010``` | Battery |
+| AEON Labs | [ZW111](aeon/zw111_0_0.md) | 2.2 | ```aeon_zw111_00_000``` | Battery |
+| AEON Labs | [ZW111](aeon/zw111_2_3.md) | 2.3 | ```aeon_zw111_02_003``` | Battery |
 | AEON Labs | [ZW112](aeon/zw112_0_0.md) |  | ```aeon_zw112_00_000``` | Battery |
-| AEON Labs | [ZW116](aeon/zw116_0_0.md) | 2.-1998 | ```aeon_zw116_00_000``` | Battery |
-| AEON Labs | [ZW116](aeon/zw116_2_-1998.md) | 2.-1998 | ```aeon_zw116_02_001``` | Battery |
+| AEON Labs | [ZW116](aeon/zw116_0_0.md) | 2.0 | ```aeon_zw116_00_000``` | Battery |
+| AEON Labs | [ZW116](aeon/zw116_2_1.md) | 2.1 | ```aeon_zw116_02_001``` | Battery |
 | AEON Labs | [ZW117](aeon/zw117_0_0.md) |  | ```aeon_zw117_00_000``` | Battery |
 | AEON Labs | [ZW120](aeon/zw120_0_0.md) |  | ```aeon_zw120_00_000``` | Battery |
 | AEON Labs | [ZW121](aeon/zw121_0_0.md) |  | ```aeon_zw121_00_000``` | Battery |
 | AEON Labs | [ZW122](aeon/zw122_0_0.md) |  | ```aeon_zw122_00_000``` | Battery |
 | AEON Labs | [ZW129](aeon/zw129_0_0.md) |  | ```aeon_zw129_00_000``` | Battery |
 | AEON Labs | [ZW130](aeon/zw130_0_0.md) |  | ```aeon_zw130_00_000``` | Battery |
-| AEON Labs | [ZW132](aeon/zw132_0_0.md) | 1.-999 | ```aeon_zw132_00_000``` | Battery |
-| AEON Labs | [ZW132](aeon/zw132_2_-1998.md) | 2.-1998 | ```aeon_zw132_02_000``` | Battery |
+| AEON Labs | [ZW132](aeon/zw132_0_0.md) | 1.9 | ```aeon_zw132_00_000``` | Battery |
+| AEON Labs | [ZW132](aeon/zw132_2_0.md) | 2.0 | ```aeon_zw132_02_000``` | Battery |
 | AEON Labs | [ZW139](aeon/zw139_0_0.md) |  | ```aeon_zw139_00_000``` | Battery |
 | AEON Labs | [ZW140](aeon/zw140_0_0.md) |  | ```aeon_zw140_00_000``` | Battery |
 | AEON Labs | [ZW141](aeon/zw141_0_0.md) |  | ```aeon_zw141_00_000``` | Battery |
 | Aeotec Limited | [Spirit](aeotec/spirit_0_0.md) |  | ```aeotec_spirit_00_000``` | Battery |
-| Aeotec Limited | [ZW141](aeotec/zw141_3_-2997.md) | 3.-2997 | ```aeotec_zw141_03_000``` | Battery |
+| Aeotec Limited | [ZW141](aeotec/zw141_3_0.md) | 3.0 | ```aeotec_zw141_03_000``` | Battery |
 | Aeotec Limited | [ZW164](aeotec/zw164_0_0.md) |  | ```aeotec_zw164_00_000``` | Battery |
 | Aeotec Limited | [ZW175](aeotec/zw175_0_0.md) |  | ```aeotec_zw175_00_000``` | Battery |
 | Aeotec Limited | [ZW187](aeotec/zw187_0_0.md) |  | ```aeotec_zw187_00_000``` | Battery |
@@ -148,13 +148,13 @@ and links to more detailed information about each thing.
 | Cooper Wiring Devices | [RF9518](cooper/rf9518_0_0.md) |  | ```cooper_rf9518_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9534](cooper/rf9534_0_0.md) |  | ```cooper_rf9534_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9536-N](cooper/rf9536n_0_0.md) |  | ```cooper_rf9536n_00_000``` | Battery |
-| Cooper Wiring Devices | [RF9537](cooper/rf9537_0_0.md) | 3.-2997 | ```cooper_rf9537_00_000``` | Battery |
+| Cooper Wiring Devices | [RF9537](cooper/rf9537_0_0.md) | 3.4 | ```cooper_rf9537_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9540-N](cooper/rf9540n_0_0.md) |  | ```cooper_rf9540n_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9542](cooper/rf9542_0_0.md) |  | ```cooper_rf9542_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9575](cooper/rf9575_0_0.md) |  | ```cooper_rf9575_00_000``` | Battery |
-| Cooper Wiring Devices | [RF9601](cooper/rf9601_0_0.md) | 255.-254745 | ```cooper_rf9601_00_000``` | Battery |
+| Cooper Wiring Devices | [RF9601](cooper/rf9601_0_0.md) | 255.0 | ```cooper_rf9601_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9617](cooper/rf9617_0_0.md) |  | ```cooper_rf9617_00_000``` | Battery |
-| Cooper Wiring Devices | [RF9640](cooper/rf9640_0_0.md) | 255.-254745 | ```cooper_rf9640_00_000``` | Battery |
+| Cooper Wiring Devices | [RF9640](cooper/rf9640_0_0.md) | 255.0 | ```cooper_rf9640_00_000``` | Battery |
 | Cooper Wiring Devices | [RF9642](cooper/rf9642_0_0.md) |  | ```cooper_rf9642_00_000``` | Battery |
 | Cooper Wiring Devices | [RF96PIRBMS](cooper/rf96pirbms_0_0.md) |  | ```cooper_rf96pirbms_00_000``` | Battery |
 | Cooper Wiring Devices | [RFLDM](cooper/rfldmdimmer_0_0.md) |  | ```cooper_rfldmdimmer_00_000``` | Battery |
@@ -201,7 +201,7 @@ and links to more detailed information about each thing.
 | Dragon Tech Industrial, Ltd. | [WD-100](dragontech/wd100_0_0.md) |  | ```dragontech_wd100_00_000``` | Battery |
 | Dragon Tech Industrial, Ltd. | [WS-100](dragontech/ws100_0_0.md) |  | ```dragontech_ws100_00_000``` | Battery |
 | EbV | [heatapp! floor](ebv/heatappfloor_0_0.md) |  | ```ebv_heatappfloor_00_000``` | Battery |
-| Ecolink | [Z-Wave Garage Door Tilt Sensor](eco/03_0_0.md) | 4.-3996 | ```eco_03_00_000``` | Battery |
+| Ecolink | [Z-Wave Garage Door Tilt Sensor](eco/03_0_0.md) | 4.54 | ```eco_03_00_000``` | Battery |
 | Ecolink | [DWZWAVE25](eco/dwzwave25_0_0.md) |  | ```eco_dwzwave25_00_000``` | Battery |
 | Ecolink | [DWZWAVE2](eco/dwzwave2_0_0.md) |  | ```eco_dwzwave2_00_000``` | Battery |
 | Ecolink | [Ecolink Wireless Siren](eco/ecolinkwirelesssiren_0_0.md) |  | ```eco_ecolinkwirelesssiren_00_000``` | Battery |
@@ -235,8 +235,8 @@ and links to more detailed information about each thing.
 | Wenzhou MTLC Electric Appliances Co.,Ltd. | [Plug-In Smart Meter Dimmer Switch](enerwave/zwn323m_0_0.md) |  | ```enerwave_zwn323m_00_000``` | Battery |
 | Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-333](enerwave/zwn333_0_0.md) |  | ```enerwave_zwn333_00_000``` | Battery |
 | Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-BDS](enerwave/zwnbds_0_0.md) |  | ```enerwave_zwnbds_00_000``` | Battery |
-| Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-BPC](enerwave/zwnbpc_0_0.md) | 5.-4995 | ```enerwave_zwnbpc_00_000``` | Battery |
-| Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-BPC-PLUS](enerwave/zwnbpc_5_-4995.md) | 5.-4995 | ```enerwave_zwnbpc_05_010``` | Battery |
+| Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-BPC](enerwave/zwnbpc_0_0.md) | 5.9 | ```enerwave_zwnbpc_00_000``` | Battery |
+| Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-BPC-PLUS](enerwave/zwnbpc_5_10.md) | 5.10 | ```enerwave_zwnbpc_05_010``` | Battery |
 | Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-RSM1-PLUS](enerwave/zwnrsm1plus_0_0.md) |  | ```enerwave_zwnrsm1plus_00_000``` | Battery |
 | Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-RSM2](enerwave/zwnrsm2_0_0.md) |  | ```enerwave_zwnrsm2_00_000``` | Battery |
 | Wenzhou MTLC Electric Appliances Co.,Ltd. | [ZWN-SC7](enerwave/zwnsc7_0_0.md) |  | ```enerwave_zwnsc7_00_000``` | Battery |
@@ -285,56 +285,56 @@ and links to more detailed information about each thing.
 | Fakro | [AMZ](fakro/amz_0_0.md) |  | ```fakro_amz_00_000``` | Battery |
 | Fakro | [AMZ Solar](fakro/amzsolar_0_0.md) |  | ```fakro_amzsolar_00_000``` | Battery |
 | Fakro | [ARF](fakro/arf_0_0.md) |  | ```fakro_arf_00_000``` | Battery |
-| Fakro | [ARZ Z-Wave](fakro/arz2013_2_-1998.md) | 2.-1998 to 3.-2997 | ```fakro_arz2013_02_001``` | Battery |
-| Fakro | [ARZ 1.1](fakro/arz2_1_-999.md) | 1.-999 | ```fakro_arz2_01_001``` | Battery |
+| Fakro | [ARZ Z-Wave](fakro/arz2013_2_1.md) | 2.1 to 3.255 | ```fakro_arz2013_02_001``` | Battery |
+| Fakro | [ARZ 1.1](fakro/arz2_1_1.md) | 1.1 | ```fakro_arz2_01_001``` | Battery |
 | Fakro | [ARZ](fakro/arz_0_0.md) |  | ```fakro_arz_00_000``` | Battery |
 | Fakro | [ARZ Solar](fakro/arzsolar_0_0.md) |  | ```fakro_arzsolar_00_000``` | Battery |
 | Fakro | [VMZ Solar](fakro/vmzsolar_0_0.md) |  | ```fakro_vmzsolar_00_000``` | Battery |
 | Fakro | [VMZ Solar z-wave plus](fakro/vmzsolarplus_0_0.md) |  | ```fakro_vmzsolarplus_00_000``` | Battery |
 | Fakro | [ZWMP](fakro/zwmp_0_0.md) |  | ```fakro_zwmp_00_000``` | Battery |
 | Fakro | [ZWP10](fakro/zwp10_0_0.md) |  | ```fakro_zwp10_00_000``` | Battery |
-| Fakro | [ZWS12](fakro/zws1222_2_-1998.md) | 2.-1998 | ```fakro_zws1222_02_002``` | Battery |
-| Fakro | [ZWS12](fakro/zws12_0_0.md) | 2.-1998 | ```fakro_zws12_00_000``` | Battery |
-| Fakro | [ZWS12](fakro/zws12_4_-3996.md) | 4.-3996 | ```fakro_zws12_04_000``` | Battery |
+| Fakro | [ZWS12](fakro/zws1222_2_2.md) | 2.2 | ```fakro_zws1222_02_002``` | Battery |
+| Fakro | [ZWS12](fakro/zws12_0_0.md) | 2.0 | ```fakro_zws12_00_000``` | Battery |
+| Fakro | [ZWS12](fakro/zws12_4_0.md) | 4.0 | ```fakro_zws12_04_000``` | Battery |
 | Fakro | [ZWS12n](fakro/zws12n_0_0.md) |  | ```fakro_zws12n_00_000``` | Battery |
 | Fakro | [ZWS12](fakro/zws12year2019_0_0.md) |  | ```fakro_zws12year2019_00_000``` | Battery |
 | Fibargroup | [FGBS001](fibaro/fgbs001_0_0.md) |  | ```fibaro_fgbs001_00_000``` | Battery |
 | Fibargroup | [FGBS222](fibaro/fgbs222_0_0.md) |  | ```fibaro_fgbs222_00_000``` | Battery |
 | Fibargroup | [FGCD001](fibaro/fgcd001_0_0.md) |  | ```fibaro_fgcd001_00_000``` | Battery |
-| Fibargroup | [FGD211](fibaro/fgd211_0_0.md) | 1.-999 | ```fibaro_fgd211_00_000``` | Battery |
-| Fibargroup | [FGD211](fibaro/fgd211_1_-999.md) | 1.-999 to 1.-999 | ```fibaro_fgd211_01_009``` | Battery |
-| Fibargroup | [FGD211](fibaro/fgd211_2_-1998.md) | 2.-1998 | ```fibaro_fgd211_02_001``` | Battery |
-| Fibargroup | [FGD212](fibaro/fgd212_0_0.md) | 3.-2997 | ```fibaro_fgd212_00_000``` | Battery |
-| Fibargroup | [FGD212](fibaro/fgd212_3_-2997.md) | 3.-2997 | ```fibaro_fgd212_03_005``` | Battery |
+| Fibargroup | [FGD211](fibaro/fgd211_0_0.md) | 1.8 | ```fibaro_fgd211_00_000``` | Battery |
+| Fibargroup | [FGD211](fibaro/fgd211_1_9.md) | 1.9 to 1.11 | ```fibaro_fgd211_01_009``` | Battery |
+| Fibargroup | [FGD211](fibaro/fgd211_2_1.md) | 2.1 | ```fibaro_fgd211_02_001``` | Battery |
+| Fibargroup | [FGD212](fibaro/fgd212_0_0.md) | 3.4 | ```fibaro_fgd212_00_000``` | Battery |
+| Fibargroup | [FGD212](fibaro/fgd212_3_5.md) | 3.5 | ```fibaro_fgd212_03_005``` | Battery |
 | Fibargroup | [FGDW002](fibaro/fgdw002_0_0.md) |  | ```fibaro_fgdw002_00_000``` | Battery |
-| Fibargroup | [FGFS101](fibaro/fgfs101_0_0.md) | 3.-2997 | ```fibaro_fgfs101_00_000``` | Battery |
-| Fibargroup | [FGFS101](fibaro/fgfs101_3_-2997.md) | 3.-2997 to 23.-22977 | ```fibaro_fgfs101_03_002``` | Battery |
-| Fibargroup | [FGFS101](fibaro/fgfs101_23_-22977.md) | 23.-22977 | ```fibaro_fgfs101_23_023``` | Battery |
+| Fibargroup | [FGFS101](fibaro/fgfs101_0_0.md) | 3.0 | ```fibaro_fgfs101_00_000``` | Battery |
+| Fibargroup | [FGFS101](fibaro/fgfs101_3_2.md) | 3.2 to 23.0 | ```fibaro_fgfs101_03_002``` | Battery |
+| Fibargroup | [FGFS101](fibaro/fgfs101_23_23.md) | 23.23 | ```fibaro_fgfs101_23_023``` | Battery |
 | Fibargroup | [FGGC001](fibaro/fggc001_0_0.md) |  | ```fibaro_fggc001_00_000``` | Battery |
-| Fibargroup | [FGK101](fibaro/fgk101_0_0.md) | 2.-1998 | ```fibaro_fgk101_00_000``` | Battery |
-| Fibargroup | [FGK101](fibaro/fgk101_2_-1998.md) | 2.-1998 to 2.-1998 | ```fibaro_fgk101_02_005``` | Battery |
-| Fibargroup | [FGK101](fibaro/fgk101_3_-2997.md) | 3.-2997 | ```fibaro_fgk101_03_002``` | Battery |
+| Fibargroup | [FGK101](fibaro/fgk101_0_0.md) | 2.3 | ```fibaro_fgk101_00_000``` | Battery |
+| Fibargroup | [FGK101](fibaro/fgk101_2_5.md) | 2.5 to 2.5 | ```fibaro_fgk101_02_005``` | Battery |
+| Fibargroup | [FGK101](fibaro/fgk101_3_2.md) | 3.2 | ```fibaro_fgk101_03_002``` | Battery |
 | Fibargroup | [FGKF601](fibaro/fgkf601_0_0.md) |  | ```fibaro_fgkf601_00_000``` | Battery |
-| Fibargroup | [FGMS001](fibaro/fgms001_0_0.md) | 2.-1998 | ```fibaro_fgms001_00_000``` | Battery |
-| Fibargroup | [FGMS001](fibaro/fgms001_3_-2997.md) | 3.-2997 | ```fibaro_fgms001_03_002``` | Battery |
+| Fibargroup | [FGMS001](fibaro/fgms001_0_0.md) | 2.8 | ```fibaro_fgms001_00_000``` | Battery |
+| Fibargroup | [FGMS001](fibaro/fgms001_3_2.md) | 3.2 | ```fibaro_fgms001_03_002``` | Battery |
 | Fibargroup | [FGPB101](fibaro/fgpb101_0_0.md) |  | ```fibaro_fgpb101_00_000``` | Battery |
 | Fibargroup | [FGR221](fibaro/fgr221_0_0.md) |  | ```fibaro_fgr221_00_000``` | Battery |
-| Fibargroup | [FGR222](fibaro/fgr222_24_-23976.md) | 24.-23976 | ```fibaro_fgr222_24_024``` | Battery |
+| Fibargroup | [FGR222](fibaro/fgr222_24_24.md) | 24.24 | ```fibaro_fgr222_24_024``` | Battery |
 | Fibargroup | [FGR223](fibaro/fgr223_0_0.md) |  | ```fibaro_fgr223_00_000``` | Battery |
 | Fibargroup | [FGRGBW-442](fibaro/fgrgbw442_0_0.md) |  | ```fibaro_fgrgbw442_00_000``` | Battery |
 | Fibargroup | [FGRGBW](fibaro/fgrgbw_0_0.md) |  | ```fibaro_fgrgbw_00_000``` | Battery |
-| Fibargroup | [FGRM222](fibaro/fgrm222_0_0.md) | 22.-21978 | ```fibaro_fgrm222_00_000``` | Battery |
-| Fibargroup | [FGS211](fibaro/fgs211_0_0.md) | 2.-1998 | ```fibaro_fgs211_00_000``` | Battery |
-| Fibargroup | [FGS211](fibaro/fgs211_2_-1998.md) | 2.-1998 | ```fibaro_fgs211_02_001``` | Battery |
+| Fibargroup | [FGRM222](fibaro/fgrm222_0_0.md) | 22.22 | ```fibaro_fgrm222_00_000``` | Battery |
+| Fibargroup | [FGS211](fibaro/fgs211_0_0.md) | 2.0 | ```fibaro_fgs211_00_000``` | Battery |
+| Fibargroup | [FGS211](fibaro/fgs211_2_1.md) | 2.1 | ```fibaro_fgs211_02_001``` | Battery |
 | Fibargroup | [FGS212](fibaro/fgs212_0_0.md) |  | ```fibaro_fgs212_00_000``` | Battery |
 | Fibargroup | [FGS213](fibaro/fgs213_0_0.md) |  | ```fibaro_fgs213_00_000``` | Battery |
-| Fibargroup | [FGS221](fibaro/fgs221_1_-999.md) | 1.-999 to 1.-999 | ```fibaro_fgs221_01_004``` | Battery |
-| Fibargroup | [FGS221](fibaro/fgs221_1_-999.md) | 1.-999 to 1.-999 | ```fibaro_fgs221_01_009``` | Battery |
-| Fibargroup | [FGS221](fibaro/fgs221_2_-1998.md) | 2.-1998 to 2.-1998 | ```fibaro_fgs221_02_001``` | Battery |
+| Fibargroup | [FGS221](fibaro/fgs221_1_4.md) | 1.4 to 1.8 | ```fibaro_fgs221_01_004``` | Battery |
+| Fibargroup | [FGS221](fibaro/fgs221_1_9.md) | 1.9 to 1.11 | ```fibaro_fgs221_01_009``` | Battery |
+| Fibargroup | [FGS221](fibaro/fgs221_2_1.md) | 2.1 to 2.3 | ```fibaro_fgs221_02_001``` | Battery |
 | Fibargroup | [FGS222](fibaro/fgs222_0_0.md) |  | ```fibaro_fgs222_00_000``` | Battery |
 | Fibargroup | [FGS223](fibaro/fgs223_0_0.md) |  | ```fibaro_fgs223_00_000``` | Battery |
-| Fibargroup | [FGSD002](fibaro/fgsd002_0_0.md) | 3.-2997 | ```fibaro_fgsd002_00_000``` | Battery |
-| Fibargroup | [FGSD002](fibaro/fgsd002_3_-2997.md) | 3.-2997 | ```fibaro_fgsd002_03_002``` | Battery |
+| Fibargroup | [FGSD002](fibaro/fgsd002_0_0.md) | 3.1 | ```fibaro_fgsd002_00_000``` | Battery |
+| Fibargroup | [FGSD002](fibaro/fgsd002_3_2.md) | 3.2 | ```fibaro_fgsd002_03_002``` | Battery |
 | Fibargroup | [FGSS001](fibaro/fgss001_0_0.md) |  | ```fibaro_fgss001_00_000``` | Battery |
 | Fibargroup | [FGT001](fibaro/fgt001_0_0.md) |  | ```fibaro_fgt001_00_000``` | Battery |
 | Fibargroup | [FGWDEU](fibaro/fgwdeu111_0_0.md) |  | ```fibaro_fgwdeu111_00_000``` | Battery |
@@ -342,8 +342,8 @@ and links to more detailed information about each thing.
 | Fibargroup | [FGWDSEU](fibaro/fgwdseu_0_0.md) |  | ```fibaro_fgwdseu_00_000``` | Battery |
 | Fibargroup | [FGWOE-011](fibaro/fgwoe011_0_0.md) |  | ```fibaro_fgwoe011_00_000``` | Battery |
 | Fibargroup | [FGWP101](fibaro/fgwp101_0_0.md) |  | ```fibaro_fgwp101_00_000``` | Battery |
-| Fibargroup | [FGWP102](fibaro/fgwp102_2_-1998.md) | 2.-1998 to 2.-1998 | ```fibaro_fgwp102_02_001``` | Battery |
-| Fibargroup | [FGWP102](fibaro/fgwp102_3_-2997.md) | 3.-2997 | ```fibaro_fgwp102_03_002``` | Battery |
+| Fibargroup | [FGWP102](fibaro/fgwp102_2_1.md) | 2.1 to 2.5 | ```fibaro_fgwp102_02_001``` | Battery |
+| Fibargroup | [FGWP102](fibaro/fgwp102_3_2.md) | 3.2 | ```fibaro_fgwp102_03_002``` | Battery |
 | Fibargroup | [FGWPB-111](fibaro/fgwpb111_0_0.md) |  | ```fibaro_fgwpb111_00_000``` | Battery |
 | Fibargroup | [FGWPB-121](fibaro/fgwpb121_0_0.md) |  | ```fibaro_fgwpb121_00_000``` | Battery |
 | Fibargroup | [FGWREU-111](fibaro/fgwreu111_0_0.md) |  | ```fibaro_fgwreu111_00_000``` | Battery |
@@ -377,8 +377,8 @@ and links to more detailed information about each thing.
 | Jasco Products | [GE/Jasco 14321](ge/14321_0_0.md) |  | ```ge_14321_00_000``` | Battery |
 | Jasco Products | [In-Wall Smart Motion Dimmer](ge/26933_0_0.md) |  | ```ge_26933_00_000``` | Battery |
 | Jasco Products | [GE 28167 (ZW3104)](ge/28167_0_0.md) |  | ```ge_28167_00_000``` | Battery |
-| Jasco Products | [GE 28169 / Jasco 28168](ge/28169_0_0.md) | 4.-3996 | ```ge_28169_00_000``` | Battery |
-| Jasco Products | [GE 28169 / Jasco 28168](ge/28169_5_-4995.md) | 5.-4995 | ```ge_28169_05_000``` | Battery |
+| Jasco Products | [GE 28169 / Jasco 28168](ge/28169_0_0.md) | 4.9 | ```ge_28169_00_000``` | Battery |
+| Jasco Products | [GE 28169 / Jasco 28168](ge/28169_5_0.md) | 5.0 | ```ge_28169_05_000``` | Battery |
 | Jasco Products | [28177](ge/28177_0_0.md) |  | ```ge_28177_00_000``` | Battery |
 | Jasco Products | [35931](ge/35931_0_0.md) |  | ```ge_35931_00_000``` | Battery |
 | Jasco Products | [45603](ge/45603_0_0.md) |  | ```ge_45603_00_000``` | Battery |
@@ -398,7 +398,7 @@ and links to more detailed information about each thing.
 | Jasco Products | [ZW3011/14322/46565](ge/zw3011_0_0.md) |  | ```ge_zw3011_00_000``` | Battery |
 | Jasco Products | [ZW3101](ge/zw3101_0_0.md) |  | ```ge_zw3101_00_000``` | Battery |
 | Jasco Products | [ZW3102](ge/zw3102_0_0.md) |  | ```ge_zw3102_00_000``` | Battery |
-| Jasco Products | [GE 28175 (ZW3106)](ge/zw3106_5_-4995.md) | 5.-4995 to 5.-4995 | ```ge_zw3106_05_023``` | Battery |
+| Jasco Products | [GE 28175 (ZW3106)](ge/zw3106_5_23.md) | 5.23 to 5.23 | ```ge_zw3106_05_023``` | Battery |
 | Jasco Products | [ZW4002](ge/zw4002_0_0.md) |  | ```ge_zw4002_00_000``` | Battery |
 | Jasco Products | [GE ZW4004](ge/zw4004_0_0.md) |  | ```ge_zw4004_00_000``` | Battery |
 | Jasco Products | [ZW4005, 12722](ge/zw4005_0_0.md) |  | ```ge_zw4005_00_000``` | Battery |
@@ -414,7 +414,7 @@ and links to more detailed information about each thing.
 | Graber | [CSZ1](graber/csz1_0_0.md) |  | ```graber_csz1_00_000``` | Battery |
 | Graber | [RSZ1](graber/rsz1_0_0.md) |  | ```graber_rsz1_00_000``` | Battery |
 | Graber | [VCZ1](graber/vcz1_0_0.md) |  | ```graber_vcz1_00_000``` | Battery |
-| GreenWave Reality Inc. | [GWPN1](greenwave/gwpn1_3_-2997.md) | 3.-2997 | ```greenwave_gwpn1_03_000``` | Battery |
+| GreenWave Reality Inc. | [GWPN1](greenwave/gwpn1_3_0.md) | 3.0 | ```greenwave_gwpn1_03_000``` | Battery |
 | GreenWave Reality Inc. | [GWPN5](greenwave/gwpn5_0_0.md) |  | ```greenwave_gwpn5_00_000``` | Battery |
 | GreenWave Reality Inc. | [GWPN6](greenwave/gwpn6_0_0.md) |  | ```greenwave_gwpn6_00_000``` | Battery |
 | Guardtec | [KeyWe Smart lock ](guardtec/keywesmartlock_0_0.md) |  | ```guardtec_keywesmartlock_00_000``` | Battery |
@@ -442,7 +442,7 @@ and links to more detailed information about each thing.
 | Heiman Technology Co. Ltd | [HS2WD-Z](heiman/hs2wdz_0_0.md) |  | ```heiman_hs2wdz_00_000``` | Battery |
 | Heiman Technology Co. Ltd | [HS3WL-Z](heiman/m4172_0_0.md) |  | ```heiman_m4172_00_000``` | Battery |
 | Heltun | [HE-ZW-THERM-FL2](heltun/hezwthermfl2_0_0.md) |  | ```heltun_hezwthermfl2_00_000``` | Battery |
-| Hogar Controls | [HTP-4S1-FB](hogar/htp4s1fb_2_-1998.md) | 2.-1998 | ```hogar_htp4s1fb_02_002``` | Battery |
+| Hogar Controls | [HTP-4S1-FB](hogar/htp4s1fb_2_2.md) | 2.2 | ```hogar_htp4s1fb_02_002``` | Battery |
 | Hogar Controls | [HTP-8S0-XX](hogar/htp850xx_0_0.md) |  | ```hogar_htp850xx_00_000``` | Battery |
 | Hogar Controls | [Lumi LM-S4ZW (C-L)](hogar/lmsxzwcl_0_0.md) |  | ```hogar_lmsxzwcl_00_000``` | Battery |
 | Hogar Controls | [Lumi 1 button ZWave](hogar/lumi1button_0_0.md) |  | ```hogar_lumi1button_00_000``` | Battery |
@@ -454,17 +454,17 @@ and links to more detailed information about each thing.
 | HomeSeer Technologies | [HS-DS100+](homeseer/hsds100_0_0.md) |  | ```homeseer_hsds100_00_000``` | Battery |
 | HomeSeer Technologies | [HS-FC200+](homeseer/hsfc200_0_0.md) |  | ```homeseer_hsfc200_00_000``` | Battery |
 | HomeSeer Technologies | [HS-FLS100+](homeseer/hsfls100_0_0.md) |  | ```homeseer_hsfls100_00_000``` | Battery |
-| HomeSeer Technologies | [HS-FS100+ Flex](homeseer/hsfs100flex_5_-4995.md) | 5.-4995 | ```homeseer_hsfs100flex_05_018``` | Battery |
-| HomeSeer Technologies | [HS-FS100-L](homeseer/hsfs100l_0_0.md) | 5.-4995 | ```homeseer_hsfs100l_00_000``` | Battery |
+| HomeSeer Technologies | [HS-FS100+ Flex](homeseer/hsfs100flex_5_18.md) | 5.18 | ```homeseer_hsfs100flex_05_018``` | Battery |
+| HomeSeer Technologies | [HS-FS100-L](homeseer/hsfs100l_0_0.md) | 5.17 | ```homeseer_hsfs100l_00_000``` | Battery |
 | HomeSeer Technologies | [HS-LS100+](homeseer/hsls100_0_0.md) |  | ```homeseer_hsls100_00_000``` | Battery |
 | HomeSeer Technologies | [HS-MS100+](homeseer/hsms100_0_0.md) |  | ```homeseer_hsms100_00_000``` | Battery |
 | HomeSeer Technologies | [HS-PA100+](homeseer/hspa100_0_0.md) |  | ```homeseer_hspa100_00_000``` | Battery |
 | HomeSeer Technologies | [HS-WD100+](homeseer/hswd100_0_0.md) |  | ```homeseer_hswd100_00_000``` | Battery |
-| HomeSeer Technologies | [HS-WD200+](homeseer/hswd200511_5_-4995.md) | 5.-4995 | ```homeseer_hswd200511_05_011``` | Battery |
-| HomeSeer Technologies | [HS-WD200+](homeseer/hswd200_0_0.md) | 5.-4995 | ```homeseer_hswd200_00_000``` | Battery |
+| HomeSeer Technologies | [HS-WD200+](homeseer/hswd200511_5_11.md) | 5.11 | ```homeseer_hswd200511_05_011``` | Battery |
+| HomeSeer Technologies | [HS-WD200+](homeseer/hswd200_0_0.md) | 5.9 | ```homeseer_hswd200_00_000``` | Battery |
 | HomeSeer Technologies | [HS-WS100+](homeseer/hsws100_0_0.md) |  | ```homeseer_hsws100_00_000``` | Battery |
-| HomeSeer Technologies | [HS-WS200+](homeseer/hsws200_5_-4995.md) | 5.-4995 to 5.-4995 | ```homeseer_hsws200_05_007``` | Battery |
-| HomeSeer Technologies | [HS-WS200+](homeseer/hsws200_5_-4995.md) | 5.-4995 | ```homeseer_hsws200_05_012``` | Battery |
+| HomeSeer Technologies | [HS-WS200+](homeseer/hsws200_5_7.md) | 5.7 to 5.7 | ```homeseer_hsws200_05_007``` | Battery |
+| HomeSeer Technologies | [HS-WS200+](homeseer/hsws200_5_12.md) | 5.12 | ```homeseer_hsws200_05_012``` | Battery |
 | Honeywell | [39339 (ZW3107) ](honeywell/39339_0_0.md) |  | ```honeywell_39339_00_000``` | Battery |
 | Honeywell | [39342 / Jasco ZW4106](honeywell/39342_0_0.md) |  | ```honeywell_39342_00_000``` | Battery |
 | Honeywell | [39348](honeywell/39348_0_0.md) |  | ```honeywell_39348_00_000``` | Battery |
@@ -495,11 +495,11 @@ and links to more detailed information about each thing.
 | Horstmann Controls Limited | [SWM301](horstmann/swm301_0_0.md) |  | ```horstmann_swm301_00_000``` | Battery |
 | Icontrol Networks | [Piper NV](icontrol/pipernv_0_0.md) |  | ```icontrol_pipernv_00_000``` | Battery |
 | Alphonsus Tech | [IDL-101](idlock/idl101_0_0.md) |  | ```idlock_idl101_00_000``` | Battery |
-| ID Lock AS | [ID-150](idlock/idl150_0_0.md) | 1.-999 | ```idlock_idl150_00_000``` | Battery |
-| ID Lock AS | [ID-150](idlock/idl150new_1_-999.md) | 1.-999 | ```idlock_idl150new_01_006``` | Battery |
+| ID Lock AS | [ID-150](idlock/idl150_0_0.md) | 1.5 | ```idlock_idl150_00_000``` | Battery |
+| ID Lock AS | [ID-150](idlock/idl150new_1_6.md) | 1.6 | ```idlock_idl150new_01_006``` | Battery |
 | Ingersoll Rand (was Ecolink) | [DWZWAVE1](ingersollecolink/dwzwave1_0_0.md) |  | ```ingersollecolink_dwzwave1_00_000``` | Battery |
 | Ingersoll Rand (was Ecolink) | [RS200](ingersollecolink/rs200_0_0.md) |  | ```ingersollecolink_rs200_00_000``` | Battery |
-| INNOVUS | [SmartDimmer](innovus/00110001_1_-999.md) | 1.-999 | ```innovus_00110001_01_000``` | Battery |
+| INNOVUS | [SmartDimmer](innovus/00110001_1_0.md) | 1.0 | ```innovus_00110001_01_000``` | Battery |
 | INNOVUS | [SmartPower](innovus/smartpower_0_0.md) |  | ```innovus_smartpower_00_000``` | Battery |
 | INNOVUS | [SmoothRemote](innovus/smoothremote_0_0.md) |  | ```innovus_smoothremote_00_000``` | Battery |
 | Inovelli | [LZW30](inovelli/lzw30_0_0.md) |  | ```inovelli_lzw30_00_000``` | Battery |
@@ -523,7 +523,7 @@ and links to more detailed information about each thing.
 | Intermatic | [HA14WD](intermatic/ha14wd_0_0.md) |  | ```intermatic_ha14wd_00_000``` | Battery |
 | Intermatic | [HA18 ](intermatic/ha18_0_0.md) |  | ```intermatic_ha18_00_000``` | Battery |
 | Intermatic | [HA20](intermatic/ha20_0_0.md) |  | ```intermatic_ha20_00_000``` | Battery |
-| Intermatic | [PE653](intermatic/pe653_3_-2997.md) | 3.-2997 to 3.-2997 | ```intermatic_pe653_03_004``` | Battery |
+| Intermatic | [PE653](intermatic/pe653_3_4.md) | 3.4 to 3.4 | ```intermatic_pe653_03_004``` | Battery |
 | Shenzhen iSurpass Technology Co. ,Ltd | [DL9101V](isurpass/dl9101v_0_0.md) |  | ```isurpass_dl9101v_00_000``` | Battery |
 | Shenzhen iSurpass Technology Co. ,Ltd | [DX1WL-Z](isurpass/dx1wl_0_0.md) |  | ```isurpass_dx1wl_00_000``` | Battery |
 | Shenzhen iSurpass Technology Co. ,Ltd | [iLock](isurpass/ilock_0_0.md) |  | ```isurpass_ilock_00_000``` | Battery |
@@ -535,9 +535,9 @@ and links to more detailed information about each thing.
 | Jin Tao Bao | [Curtain Motor](jintaobao/curtainmotor_0_0.md) |  | ```jintaobao_curtainmotor_00_000``` | Battery |
 | Jin Tao Bao | [Saykey four input](jintaobao/saykeyfourinput_0_0.md) |  | ```jintaobao_saykeyfourinput_00_000``` | Battery |
 | Johnson Controls | [KONOzw](johnson/konozw_0_0.md) |  | ```johnson_konozw_00_000``` | Battery |
-| Kaipule Technology Co., Ltd. | [ES-61](kaipule/es61_0_0.md) | 5.-4995 | ```kaipule_es61_00_000``` | Battery |
+| Kaipule Technology Co., Ltd. | [ES-61](kaipule/es61_0_0.md) | 5.255 | ```kaipule_es61_00_000``` | Battery |
 | Kaipule Technology Co., Ltd. | [IM-20](kaipule/im20_0_0.md) |  | ```kaipule_im20_00_000``` | Battery |
-| Kaipule Technology Co., Ltd. | [ DP-32 / IX-30 / IX-32](kaipule/ix32_6_-5994.md) | 6.-5994 | ```kaipule_ix32_06_000``` | Battery |
+| Kaipule Technology Co., Ltd. | [ DP-32 / IX-30 / IX-32](kaipule/ix32_6_0.md) | 6.0 | ```kaipule_ix32_06_000``` | Battery |
 | Kichler | [12387](kichler/12387_0_0.md) |  | ```kichler_12387_00_000``` | Battery |
 | Kichler | [15DC200](kichler/15dc200_0_0.md) |  | ```kichler_15dc200_00_000``` | Battery |
 | Kichler | [15DC300](kichler/15dc300_0_0.md) |  | ```kichler_15dc300_00_000``` | Battery |
@@ -586,7 +586,7 @@ and links to more detailed information about each thing.
 | Linear Corp | [HUSBZB-1](linear/husbzb1_0_0.md) |  | ```linear_husbzb1_00_000``` | Battery |
 | Linear Corp | [LB60Z-1](linear/lb60z1_0_0.md) |  | ```linear_lb60z1_00_000``` | Battery |
 | Linear Corp | [Smart Retrofit Lighting Kit](linear/lb65r6z_0_0.md) |  | ```linear_lb65r6z_00_000``` | Battery |
-| Linear Corp | [LBR30Z-1](linear/lbr30z1_5_-4995.md) | 5.-4995 to 5.-4995 | ```linear_lbr30z1_05_016``` | Battery |
+| Linear Corp | [LBR30Z-1](linear/lbr30z1_5_16.md) | 5.16 to 5.16 | ```linear_lbr30z1_05_016``` | Battery |
 | Linear Corp | [NGD00Z-4](linear/ngd00z4_0_0.md) |  | ```linear_ngd00z4_00_000``` | Battery |
 | Linear Corp | [PD300EMZ5-1](linear/pd300emz5_0_0.md) |  | ```linear_pd300emz5_00_000``` | Battery |
 | Linear Corp | [PD300Z-2](linear/pd300z2_0_0.md) |  | ```linear_pd300z2_00_000``` | Battery |
@@ -607,12 +607,12 @@ and links to more detailed information about each thing.
 | Linear Corp | [WT00Z5-1](linear/wt00z51_0_0.md) |  | ```linear_wt00z51_00_000``` | Battery |
 | Locstar Technology Co., Ltd | [LS-8015-ZW](locstar/ls8015zw_0_0.md) |  | ```locstar_ls8015zw_00_000``` | Battery |
 | Logic Group | [LHC5020](logic/lhc5020_0_0.md) |  | ```logic_lhc5020_00_000``` | Battery |
-| Logic Group | [LHC5031](logic/lhc5031_0_0.md) | 0.0 | ```logic_lhc5031_00_062``` | Battery |
+| Logic Group | [LHC5031](logic/lhc5031_0_62.md) | 0.62 | ```logic_lhc5031_00_062``` | Battery |
 | Logic Group | [Heatit Z-Scene Controller](logic/scenecontroller_0_0.md) |  | ```logic_scenecontroller_00_000``` | Battery |
 | Logic Group | [ZDB5100](logic/zdb5100_0_0.md) |  | ```logic_zdb5100_00_000``` | Battery |
 | Logic Group | [Dimmy ZDI5200](logic/zdi5200_0_0.md) |  | ```logic_zdi5200_00_000``` | Battery |
-| Logic Group | [ZHC5010](logic/zhc5010_0_0.md) | 1.-999 | ```logic_zhc5010_00_000``` | Battery |
-| Logic Group | [ZHC5010](logic/zhc5010_2_-1998.md) | 2.-1998 | ```logic_zhc5010_02_000``` | Battery |
+| Logic Group | [ZHC5010](logic/zhc5010_0_0.md) | 1.12 | ```logic_zhc5010_00_000``` | Battery |
+| Logic Group | [ZHC5010](logic/zhc5010_2_0.md) | 2.0 | ```logic_zhc5010_02_000``` | Battery |
 | Logic Group | [ZIF5028 / HeatIt Z-DIN 616](logic/zif5028_0_0.md) |  | ```logic_zif5028_00_000``` | Battery |
 | Logic Group | [ZIF5029](logic/zif5029_0_0.md) |  | ```logic_zif5029_00_000``` | Battery |
 | LS Control | [E861C](lscontrol/e861c_0_0.md) |  | ```lscontrol_e861c_00_000``` | Battery |
@@ -624,13 +624,13 @@ and links to more detailed information about each thing.
 | McoHome Technology Co., Ltd | [MH10-PM2.5-WA/WD](mcohome/mh10pm25wawd_0_0.md) |  | ```mcohome_mh10pm25wawd_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH3700-HP](mcohome/mh3700_0_0.md) |  | ```mcohome_mh3700_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH3901](mcohome/mh3901_0_0.md) |  | ```mcohome_mh3901_00_000``` | Battery |
-| McoHome Technology Co., Ltd | [MH6-HP](mcohome/mh6hp_0_0.md) | 1.-999 | ```mcohome_mh6hp_00_000``` | Battery |
-| McoHome Technology Co., Ltd | [MH6-HP](mcohome/mh6hp_2_-1998.md) | 2.-1998 | ```mcohome_mh6hp_02_000``` | Battery |
+| McoHome Technology Co., Ltd | [MH6-HP](mcohome/mh6hp_0_0.md) | 1.255 | ```mcohome_mh6hp_00_000``` | Battery |
+| McoHome Technology Co., Ltd | [MH6-HP](mcohome/mh6hp_2_0.md) | 2.0 | ```mcohome_mh6hp_02_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH7](mcohome/mh7_0_0.md) |  | ```mcohome_mh7_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH7H](mcohome/mh7h_0_0.md) |  | ```mcohome_mh7h_00_000``` | Battery |
-| McoHome Technology Co., Ltd | [MH8-FC](mcohome/mh8fc_0_0.md) | 2.-1998 | ```mcohome_mh8fc_00_000``` | Battery |
+| McoHome Technology Co., Ltd | [MH8-FC](mcohome/mh8fc_0_0.md) | 2.9 | ```mcohome_mh8fc_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH8-FC](mcohome/mh8fcplus2_0_0.md) |  | ```mcohome_mh8fcplus2_00_000``` | Battery |
-| McoHome Technology Co., Ltd | [MH8-FC](mcohome/mh8fcplus_3_-2997.md) | 3.-2997 | ```mcohome_mh8fcplus_03_000``` | Battery |
+| McoHome Technology Co., Ltd | [MH8-FC](mcohome/mh8fcplus_3_0.md) | 3.0 | ```mcohome_mh8fcplus_03_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH9-CO2-WA](mcohome/mh9co2wa_0_0.md) |  | ```mcohome_mh9co2wa_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH9-CO2-WD](mcohome/mh9co2wd_0_0.md) |  | ```mcohome_mh9co2wd_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH-DT311](mcohome/mhdt311_0_0.md) |  | ```mcohome_mhdt311_00_000``` | Battery |
@@ -651,7 +651,7 @@ and links to more detailed information about each thing.
 | McoHome Technology Co., Ltd | [MH-S513](mcohome/mhs513_0_0.md) |  | ```mcohome_mhs513_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH-S521](mcohome/mhs521_0_0.md) |  | ```mcohome_mhs521_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [MH-S613](mcohome/mhs613_0_0.md) |  | ```mcohome_mhs613_00_000``` | Battery |
-| McoHome Technology Co., Ltd | [TPS411](mcohome/tps411_0_0.md) | 5.-4995 | ```mcohome_tps411_00_000``` | Battery |
+| McoHome Technology Co., Ltd | [TPS411](mcohome/tps411_0_0.md) | 5.5 | ```mcohome_tps411_00_000``` | Battery |
 | McoHome Technology Co., Ltd | [TPS412](mcohome/tps412_0_0.md) |  | ```mcohome_tps412_00_000``` | Battery |
 | MegaChips | [FIBEFGS-213](megachips/fibefgs213mega_0_0.md) |  | ```megachips_fibefgs213mega_00_000``` | Battery |
 | Merten | [5046xx](merten/5046xx_0_0.md) |  | ```merten_5046xx_00_000``` | Battery |
@@ -682,7 +682,7 @@ and links to more detailed information about each thing.
 | NIE Technology | [Minoston](nietech/minoston_0_0.md) |  | ```nietech_minoston_00_000``` | Battery |
 | NIE Technology | [MP20Z](nietech/mp20z_0_0.md) |  | ```nietech_mp20z_00_000``` | Battery |
 | NIE Technology | [MP22Z](nietech/mp22z_0_0.md) |  | ```nietech_mp22z_00_000``` | Battery |
-| NIE Technology | [MS11Z](nietech/ms11z_4_-3996.md) | 4.-3996 to 4.-3996 | ```nietech_ms11z_04_000``` | Battery |
+| NIE Technology | [MS11Z](nietech/ms11z_4_0.md) | 4.0 to 4.0 | ```nietech_ms11z_04_000``` | Battery |
 | NIE Technology | [NZW30](nietech/nzw30_0_0.md) |  | ```nietech_nzw30_00_000``` | Battery |
 | NIE Technology | [NZW30S](nietech/nzw30s_0_0.md) |  | ```nietech_nzw30s_00_000``` | Battery |
 | NIE Technology | [NZW31S](nietech/nzw31s_0_0.md) |  | ```nietech_nzw31s_00_000``` | Battery |
@@ -693,7 +693,7 @@ and links to more detailed information about each thing.
 | NIE Technology | [ZW36](nietech/smartplugswitch_0_0.md) |  | ```nietech_smartplugswitch_00_000``` | Battery |
 | NIE Technology | [ZW31](nietech/zw31_0_0.md) |  | ```nietech_zw31_00_000``` | Battery |
 | NIE Technology | [ZW37](nietech/zw37_0_0.md) |  | ```nietech_zw37_00_000``` | Battery |
-| NIE Technology | [ZW681](nietech/zw681vde_2_-1998.md) | 2.-1998 | ```nietech_zw681vde_02_001``` | Battery |
+| NIE Technology | [ZW681](nietech/zw681vde_2_1.md) | 2.1 | ```nietech_zw681vde_02_001``` | Battery |
 | NIE Technology | [ZW96](nietech/zw96_0_0.md) |  | ```nietech_zw96_00_000``` | Battery |
 | NIE Technology | [ZW97](nietech/zw97_0_0.md) |  | ```nietech_zw97_00_000``` | Battery |
 | ID-RF | [ASP-3-1](nodon/asp31_0_0.md) |  | ```nodon_asp31_00_000``` | Battery |
@@ -703,8 +703,8 @@ and links to more detailed information about each thing.
 | ID-RF | [Soft Remote ](nodon/softremote_0_0.md) |  | ```nodon_softremote_00_000``` | Battery |
 | NorthQ | [NQ-9021](northq/nq9021_0_0.md) |  | ```northq_nq9021_00_000``` | Battery |
 | NorthQ | [NQ-9022](northq/nq9022_0_0.md) |  | ```northq_nq9022_00_000``` | Battery |
-| NorthQ | [NQ-9121](northq/nq9121_0_0.md) | 2.-1998 | ```northq_nq9121_00_000``` | Battery |
-| NorthQ | [NQ-9121](northq/nq9121_3_-2997.md) | 3.-2997 | ```northq_nq9121_03_000``` | Battery |
+| NorthQ | [NQ-9121](northq/nq9121_0_0.md) | 2.255 | ```northq_nq9121_00_000``` | Battery |
+| NorthQ | [NQ-9121](northq/nq9121_3_0.md) | 3.0 | ```northq_nq9121_03_000``` | Battery |
 | NorthQ | [NQ-9300-EU](northq/nq9300eu_0_0.md) |  | ```northq_nq9300eu_00_000``` | Battery |
 | Novar Electrical Devices and Systems (EDS) | [LDM32](novar/ldm32uc_0_0.md) |  | ```novar_ldm32uc_00_000``` | Battery |
 | Fantem | [FT096](oomi/ft096_0_0.md) |  | ```oomi_ft096_00_000``` | Battery |
@@ -727,13 +727,13 @@ and links to more detailed information about each thing.
 | Philio Technology Corp | [PAN03](philio/pan03_0_0.md) |  | ```philio_pan03_00_000``` | Battery |
 | Philio Technology Corp | [PAN04](philio/pan04_0_0.md) |  | ```philio_pan04_00_000``` | Battery |
 | Philio Technology Corp | [PAN05-1B](philio/pan05_0_0.md) |  | ```philio_pan05_00_000``` | Battery |
-| Philio Technology Corp | [PAN06](philio/pan06_0_0.md) | 1.-999 | ```philio_pan06_00_000``` | Battery |
-| Philio Technology Corp | [PAN06](philio/pan06_1_-999.md) | 1.-999 | ```philio_pan06_01_008``` | Battery |
+| Philio Technology Corp | [PAN06](philio/pan06_0_0.md) | 1.7 | ```philio_pan06_00_000``` | Battery |
+| Philio Technology Corp | [PAN06](philio/pan06_1_8.md) | 1.8 | ```philio_pan06_01_008``` | Battery |
 | Philio Technology Corp | [Philio PAN07-1A](philio/pan071a_0_0.md) |  | ```philio_pan071a_00_000``` | Battery |
 | Philio Technology Corp | [PAN08](philio/pan081a_0_0.md) |  | ```philio_pan081a_00_000``` | Battery |
 | Philio Technology Corp | [PAN08](philio/pan08_0_0.md) |  | ```philio_pan08_00_000``` | Battery |
 | Philio Technology Corp | [PAN11](philio/pan11_0_0.md) |  | ```philio_pan11_00_000``` | Battery |
-| Philio Technology Corp | [PAN16](philio/pan16_1_-999.md) | 1.-999 | ```philio_pan16_01_002``` | Battery |
+| Philio Technology Corp | [PAN16](philio/pan16_1_2.md) | 1.2 | ```philio_pan16_01_002``` | Battery |
 | Philio Technology Corp | [PAT02-A](philio/pat02a_0_0.md) |  | ```philio_pat02a_00_000``` | Battery |
 | Philio Technology Corp | [PAT02-B](philio/pat02b_0_0.md) |  | ```philio_pat02b_00_000``` | Battery |
 | Philio Technology Corp | [PAT02-C](philio/pat02c_0_0.md) |  | ```philio_pat02c_00_000``` | Battery |
@@ -755,15 +755,15 @@ and links to more detailed information about each thing.
 | Poly-control | [BTZW125](polycontrol/btzu125_0_0.md) |  | ```polycontrol_btzu125_00_000``` | Battery |
 | Poly-control | [UMV3-BTZ](polycontrol/umv3btze_0_0.md) |  | ```polycontrol_umv3btze_00_000``` | Battery |
 | Popp & Co | [004001](popp/004001_0_0.md) |  | ```popp_004001_00_000``` | Battery |
-| Popp & Co | [004407](popp/004407_1_-999.md) | 1.-999 | ```popp_004407_01_000``` | Battery |
-| Popp & Co | [005107](popp/005107_1_-999.md) | 1.-999 to 1.-999 | ```popp_005107_01_001``` | Battery |
+| Popp & Co | [004407](popp/004407_1_0.md) | 1.0 | ```popp_004407_01_000``` | Battery |
+| Popp & Co | [005107](popp/005107_1_1.md) | 1.1 to 1.4 | ```popp_005107_01_001``` | Battery |
 | Popp & Co | [005206](popp/005206_0_0.md) |  | ```popp_005206_00_000``` | Battery |
 | Popp & Co | [009204](popp/009204_0_0.md) |  | ```popp_009204_00_000``` | Battery |
 | Popp & Co | [009303](popp/009303_0_0.md) |  | ```popp_009303_00_000``` | Battery |
-| Popp & Co | [009402](popp/009402_0_0.md) | 1.-999 | ```popp_009402_00_000``` | Battery |
-| Popp & Co | [009402](popp/009402_1_-999.md) | 1.-999 | ```popp_009402_01_014``` | Battery |
-| Popp & Co | [009501](popp/009501_1_-999.md) | 1.-999 to 1.-999 | ```popp_009501_01_001``` | Battery |
-| Popp & Co | [012501](popp/012501_1_-999.md) | 1.-999 | ```popp_012501_01_004``` | Battery |
+| Popp & Co | [009402](popp/009402_0_0.md) | 1.1 | ```popp_009402_00_000``` | Battery |
+| Popp & Co | [009402](popp/009402_1_14.md) | 1.14 | ```popp_009402_01_014``` | Battery |
+| Popp & Co | [009501](popp/009501_1_1.md) | 1.1 to 1.2 | ```popp_009501_01_001``` | Battery |
+| Popp & Co | [012501](popp/012501_1_4.md) | 1.4 | ```popp_012501_01_004``` | Battery |
 | Popp & Co | [05438](popp/05438_0_0.md) |  | ```popp_05438_00_000``` | Battery |
 | Popp & Co | [123580](popp/123580_0_0.md) |  | ```popp_123580_00_000``` | Battery |
 | Popp & Co | [123610](popp/123610_0_0.md) |  | ```popp_123610_00_000``` | Battery |
@@ -771,7 +771,7 @@ and links to more detailed information about each thing.
 | Popp & Co | [700045](popp/700045_0_0.md) |  | ```popp_700045_00_000``` | Battery |
 | Popp & Co | [700342](popp/700342_0_0.md) |  | ```popp_700342_00_000``` | Battery |
 | Popp & Co | [700793](popp/700793_0_0.md) |  | ```popp_700793_00_000``` | Battery |
-| Popp & Co | [700854](popp/700854_2_-1998.md) | 2.-1998 | ```popp_700854_02_004``` | Battery |
+| Popp & Co | [700854](popp/700854_2_4.md) | 2.4 | ```popp_700854_02_004``` | Battery |
 | Popp & Co | [POPE700052](popp/pope700052_0_0.md) |  | ```popp_pope700052_00_000``` | Battery |
 | Popp & Co | [POPE700168](popp/pope700168_0_0.md) |  | ```popp_pope700168_00_000``` | Battery |
 | Popp & Co | [POPE700397](popp/pope700397_0_0.md) |  | ```popp_pope700397_00_000``` | Battery |
@@ -789,8 +789,8 @@ and links to more detailed information about each thing.
 | Goap | [ZMNHBA](qubino/zmnhba_0_0.md) |  | ```qubino_zmnhba_00_000``` | Battery |
 | Goap | [ZMNHBD](qubino/zmnhbd_0_0.md) |  | ```qubino_zmnhbd_00_000``` | Battery |
 | Goap | [ZMNHCA](qubino/zmnhca_0_0.md) |  | ```qubino_zmnhca_00_000``` | Battery |
-| Goap | [ZMNHCD](qubino/zmnhcd_0_0.md) | 4.-3996 | ```qubino_zmnhcd_00_000``` | Battery |
-| Goap | [ZMNHCD](qubino/zmnhcd_4_-3996.md) | 4.-3996 | ```qubino_zmnhcd_04_001``` | Battery |
+| Goap | [ZMNHCD](qubino/zmnhcd_0_0.md) | 4.0 | ```qubino_zmnhcd_00_000``` | Battery |
+| Goap | [ZMNHCD](qubino/zmnhcd_4_1.md) | 4.1 | ```qubino_zmnhcd_04_001``` | Battery |
 | Goap | [ZMNHDA](qubino/zmnhda_0_0.md) |  | ```qubino_zmnhda_00_000``` | Battery |
 | Goap | [ZMNHDD](qubino/zmnhdd_0_0.md) |  | ```qubino_zmnhdd_00_000``` | Battery |
 | Goap | [ZMNHHD](qubino/zmnhhd_0_0.md) |  | ```qubino_zmnhhd_00_000``` | Battery |
@@ -838,9 +838,9 @@ and links to more detailed information about each thing.
 | Remotec | [ZTS-500](remotec/zts500_0_0.md) |  | ```remotec_zts500_00_000``` | Battery |
 | Remotec | [ZXT-120](remotec/zxt120_0_0.md) |  | ```remotec_zxt120_00_000``` | Battery |
 | Remotec | [ZXT-310](remotec/zxt310_0_0.md) |  | ```remotec_zxt310_00_000``` | Battery |
-| Remotec | [ZXT-600](remotec/zxt600_1_-999.md) | 1.-999 | ```remotec_zxt600_01_003``` | Battery |
+| Remotec | [ZXT-600](remotec/zxt600_1_3.md) | 1.3 | ```remotec_zxt600_01_003``` | Battery |
 | R-import Ltd. | [RaZberry](rimport/RaZberry_0_0.md) |  | ```rimport_RaZberry_00_000``` | Battery |
-| R-import Ltd. | [RaZberry Controller 2016 ZWave+](rimport/razberry2_1_-999.md) | 1.-999 | ```rimport_razberry2_01_001``` | Battery |
+| R-import Ltd. | [RaZberry Controller 2016 ZWave+](rimport/razberry2_1_1.md) | 1.1 | ```rimport_razberry2_01_001``` | Battery |
 | Ring | [PIR Motion Sensor](ring/1156d_0_0.md) |  | ```ring_1156d_00_000``` | Battery |
 | Ring | [DW-SS ](ring/dwss_0_0.md) |  | ```ring_dwss_00_000``` | Battery |
 | Radio Thermostat Company of America (RTC) | [CT100](rtc/ct100_0_0.md) |  | ```rtc_ct100_00_000``` | Battery |
@@ -863,8 +863,8 @@ and links to more detailed information about each thing.
 | Allegion | [FE599NX](schlage/fe599nx_0_0.md) |  | ```schlage_fe599nx_00_000``` | Battery |
 | Seco | [Zwave Clamp](seco/clamp_0_0.md) |  | ```seco_clamp_00_000``` | Battery |
 | Sensative AB | [11-01-011](sensative/1101011_0_0.md) |  | ```sensative_1101011_00_000``` | Battery |
-| Sensative AB | [11 02 011](sensative/1102011_0_0.md) | 0.0 | ```sensative_1102011_00_000``` | Battery |
-| Sensative AB | [11 02 011](sensative/1102011_0_0.md) | 0.0 | ```sensative_1102011_00_003``` | Battery |
+| Sensative AB | [11 02 011](sensative/1102011_0_0.md) | 0.2 | ```sensative_1102011_00_000``` | Battery |
+| Sensative AB | [11 02 011](sensative/1102011_0_3.md) | 0.3 | ```sensative_1102011_00_003``` | Battery |
 | Shenzhen Neo Electronics Co., Ltd | [NAS-WR01ZE](shenzhen/coolcampwrplug_0_0.md) |  | ```shenzhen_coolcampwrplug_00_000``` | Battery |
 | Shenzhen Neo Electronics Co., Ltd | [EU-1](shenzhen/eu1_0_0.md) |  | ```shenzhen_eu1_00_000``` | Battery |
 | Shenzhen Neo Electronics Co., Ltd | [EU-2](shenzhen/eu2_0_0.md) |  | ```shenzhen_eu2_00_000``` | Battery |
@@ -880,7 +880,7 @@ and links to more detailed information about each thing.
 | Shenzhen Neo Electronics Co., Ltd | [NAS-WR01ZE](shenzhen/powerplug_0_0.md) |  | ```shenzhen_powerplug_00_000``` | Battery |
 | Shenzhen Neo Electronics Co., Ltd | [SOS/Remote Control](shenzhen/sosremote_0_0.md) |  | ```shenzhen_sosremote_00_000``` | Battery |
 | SIEGENIA-AUBI KG | [Sensoair](siegeniaaubi/sensoair_0_0.md) |  | ```siegeniaaubi_sensoair_00_000``` | Battery |
-| Sigma Designs (Former Zensys) | [PowerStrip](sigma/15_1_-999.md) | 1.-999 to 4.-3996 | ```sigma_15_01_000``` | Battery |
+| Sigma Designs (Former Zensys) | [PowerStrip](sigma/15_1_0.md) | 1.0 to 4.1 | ```sigma_15_01_000``` | Battery |
 | Sigma Designs (Former Zensys) | [AMADAS Smart Door Lock](sigma/amadassmartdoorlock_0_0.md) |  | ```sigma_amadassmartdoorlock_00_000``` | Battery |
 | Sigma Designs (Former Zensys) | [M417_9E](sigma/m4179e_0_0.md) |  | ```sigma_m4179e_00_000``` | Battery |
 | Sigma Designs (Former Zensys) | [PS9EP](sigma/ps9ep_0_0.md) |  | ```sigma_ps9ep_00_000``` | Battery |
@@ -935,11 +935,11 @@ and links to more detailed information about each thing.
 | ThermoFloor | [Heatit Z Push Button 8](thermofloor/heatit4512581_0_0.md) |  | ```thermofloor_heatit4512581_00_000``` | Battery |
 | ThermoFloor | [HEATIT Z-RELAY](thermofloor/heatitzrelay_0_0.md) |  | ```thermofloor_heatitzrelay_00_000``` | Battery |
 | ThermoFloor | [Heatit Z-Push Button 4](thermofloor/pushbutton4_0_0.md) |  | ```thermofloor_pushbutton4_00_000``` | Battery |
-| ThermoFloor | [TF016](thermofloor/tf016_0_0.md) | 1.-999 | ```thermofloor_tf016_00_000``` | Battery |
-| ThermoFloor | [TF016](thermofloor/tf016_1_-999.md) | 1.-999 to 1.-999 | ```thermofloor_tf016_01_008``` | Battery |
-| ThermoFloor | [TF016](thermofloor/tf016_1_-999.md) | 1.-999 | ```thermofloor_tf016_01_092``` | Battery |
-| ThermoFloor | [Heatit Z-TRM 2](thermofloor/ztrm2_2_-1998.md) | 2.-1998 to 2.-1998 | ```thermofloor_ztrm2_02_006``` | Battery |
-| ThermoFloor | [Z-TRM2fx](thermofloor/ztrm2fx_3_-2997.md) | 3.-2997 | ```thermofloor_ztrm2fx_03_000``` | Battery |
+| ThermoFloor | [TF016](thermofloor/tf016_0_0.md) | 1.7 | ```thermofloor_tf016_00_000``` | Battery |
+| ThermoFloor | [TF016](thermofloor/tf016_1_8.md) | 1.8 to 1.91 | ```thermofloor_tf016_01_008``` | Battery |
+| ThermoFloor | [TF016](thermofloor/tf016_1_92.md) | 1.92 | ```thermofloor_tf016_01_092``` | Battery |
+| ThermoFloor | [Heatit Z-TRM 2](thermofloor/ztrm2_2_6.md) | 2.6 to 2.255 | ```thermofloor_ztrm2_02_006``` | Battery |
+| ThermoFloor | [Z-TRM2fx](thermofloor/ztrm2fx_3_0.md) | 3.0 | ```thermofloor_ztrm2fx_03_000``` | Battery |
 | ThermoFloor | [HEATIT Z-TRM3](thermofloor/ztrm3_0_0.md) |  | ```thermofloor_ztrm3_00_000``` | Battery |
 | ThermoFloor | [Heatit Z Water](thermofloor/zwater_0_0.md) |  | ```thermofloor_zwater_00_000``` | Battery |
 | TKB Home | [GR308](tkb/gr308_0_0.md) |  | ```tkb_gr308_00_000``` | Battery |
@@ -950,7 +950,7 @@ and links to more detailed information about each thing.
 | TKB Home | [TZ08](tkb/tz08_0_0.md) |  | ```tkb_tz08_00_000``` | Battery |
 | TKB Home | [TZ10](tkb/tz10_0_0.md) |  | ```tkb_tz10_00_000``` | Battery |
 | TKB Home | [TZ35S](tkb/tz35s_0_0.md) |  | ```tkb_tz35s_00_000``` | Battery |
-| TKB Home | [TZ36D](tkb/tz36d_2_-1998.md) | 2.-1998 | ```tkb_tz36d_02_001``` | Battery |
+| TKB Home | [TZ36D](tkb/tz36d_2_1.md) | 2.1 | ```tkb_tz36d_02_001``` | Battery |
 | TKB Home | [TZ37](tkb/tz37_0_0.md) |  | ```tkb_tz37_00_000``` | Battery |
 | TKB Home | [TZ55D](tkb/tz55d_0_0.md) |  | ```tkb_tz55d_00_000``` | Battery |
 | TKB Home | [TZ65D](tkb/tz65d_0_0.md) |  | ```tkb_tz65d_00_000``` | Battery |
@@ -991,7 +991,7 @@ and links to more detailed information about each thing.
 | Vemmio | [MT-100](vemmio/mt100_0_0.md) |  | ```vemmio_mt100_00_000``` | Battery |
 | Vera Control | [Vera](vera/vera_0_0.md) |  | ```vera_vera_00_000``` | Battery |
 | Vision Security | [Z-BRDG-433](vision/2gigzbrdg433_0_0.md) |  | ```vision_2gigzbrdg433_00_000``` | Battery |
-| Vision Security | [AZL7434](vision/azl7434_5_-4995.md) | 5.-4995 to 5.-4995 | ```vision_azl7434_05_001``` | Battery |
+| Vision Security | [AZL7434](vision/azl7434_5_1.md) | 5.1 to 5.1 | ```vision_azl7434_05_001``` | Battery |
 | Vision Security | [PID11994](vision/pid11994_0_0.md) |  | ```vision_pid11994_00_000``` | Battery |
 | Vision Security | [PID11995](vision/pid11995_0_0.md) |  | ```vision_pid11995_00_000``` | Battery |
 | Vision Security | [PID15903](vision/pid15903_0_0.md) |  | ```vision_pid15903_00_000``` | Battery |
@@ -1005,13 +1005,13 @@ and links to more detailed information about each thing.
 | Vision Security | [ZL7431](vision/zl7431_0_0.md) |  | ```vision_zl7431_00_000``` | Battery |
 | Vision Security | [ZL7432](vision/zl7432_0_0.md) |  | ```vision_zl7432_00_000``` | Battery |
 | Vision Security | [ZM1601](vision/zm1601_0_0.md) |  | ```vision_zm1601_00_000``` | Battery |
-| Vision Security | [ZM1602](vision/zm1602_0_0.md) | 14.-13986 | ```vision_zm1602_00_000``` | Battery |
-| Vision Security | [ZM1602](vision/zm1602_15_-14985.md) | 15.-14985 | ```vision_zm1602_15_000``` | Battery |
+| Vision Security | [ZM1602](vision/zm1602_0_0.md) | 14.0 | ```vision_zm1602_00_000``` | Battery |
+| Vision Security | [ZM1602](vision/zm1602_15_0.md) | 15.0 | ```vision_zm1602_15_000``` | Battery |
 | Vision Security | [ZM1621](vision/zm1621br5_0_0.md) |  | ```vision_zm1621br5_00_000``` | Battery |
 | Vision Security | [ZM1701](vision/zm1701_0_0.md) |  | ```vision_zm1701_00_000``` | Battery |
 | Vision Security | [ZM1702](vision/zm1702_0_0.md) |  | ```vision_zm1702_00_000``` | Battery |
-| Vision Security | [ZP3102](vision/zp3102_0_0.md) | 7.-6993 | ```vision_zp3102_00_000``` | Battery |
-| Vision Security | [ZP3102](vision/zp3102_8_-7992.md) | 8.-7992 | ```vision_zp3102_08_000``` | Battery |
+| Vision Security | [ZP3102](vision/zp3102_0_0.md) | 7.99 | ```vision_zp3102_00_000``` | Battery |
+| Vision Security | [ZP3102](vision/zp3102_8_0.md) | 8.0 | ```vision_zp3102_08_000``` | Battery |
 | Vision Security | [ZP3103](vision/zp3103_0_0.md) |  | ```vision_zp3103_00_000``` | Battery |
 | Vision Security | [ZS5101](vision/zs5101_0_0.md) |  | ```vision_zs5101_00_000``` | Battery |
 | Vision Security | [ZS6101](vision/zs6101_0_0.md) |  | ```vision_zs6101_00_000``` | Battery |
@@ -1022,7 +1022,7 @@ and links to more detailed information about each thing.
 | Vision Security | [ZW4101](vision/zw4101_0_0.md) |  | ```vision_zw4101_00_000``` | Battery |
 | Wayne Dalton | [WDTC-20](wayne/wdtc20_0_0.md) |  | ```wayne_wdtc20_00_000``` | Battery |
 | wiDom | [DRY](widom/dry_0_0.md) |  | ```widom_dry_00_000``` | Battery |
-| wiDom | [WiDom Universal Relay Switch](widom/ubs_1_-999.md) | 1.-999 to 1.-999 | ```widom_ubs_01_000``` | Battery |
+| wiDom | [WiDom Universal Relay Switch](widom/ubs_1_0.md) | 1.0 to 1.7 | ```widom_ubs_01_000``` | Battery |
 | wiDom | [UMS2](widom/ums2_0_0.md) |  | ```widom_ums2_00_000``` | Battery |
 | wiDom | [WDS2](widom/wds2_0_0.md) |  | ```widom_wds2_00_000``` | Battery |
 | wiDom | [WDS](widom/wds_0_0.md) |  | ```widom_wds_00_000``` | Battery |
@@ -1032,7 +1032,7 @@ and links to more detailed information about each thing.
 | Willis Electric Co., Ltd. | [NZW30](willis/nzw30_0_0.md) |  | ```willis_nzw30_00_000``` | Battery |
 | Willis Electric Co., Ltd. | [NZW30T](willis/nzw30t_0_0.md) |  | ```willis_nzw30t_00_000``` | Battery |
 | Willis Electric Co., Ltd. | [NZW31](willis/nzw31_0_0.md) |  | ```willis_nzw31_00_000``` | Battery |
-| Willis Electric Co., Ltd. | [NZW36](willis/nzw36_1_-999.md) | 1.-999 | ```willis_nzw36_01_000``` | Battery |
+| Willis Electric Co., Ltd. | [NZW36](willis/nzw36_1_0.md) | 1.0 | ```willis_nzw36_01_000``` | Battery |
 | Willis Electric Co., Ltd. | [NZW37](willis/nzw37_0_0.md) |  | ```willis_nzw37_00_000``` | Battery |
 | Willis Electric Co., Ltd. | [NZW39](willis/nzw39_0_0.md) |  | ```willis_nzw39_00_000``` | Battery |
 | Willis Electric Co., Ltd. | [NZW96](willis/nzw96_0_0.md) |  | ```willis_nzw96_00_000``` | Battery |
@@ -1047,7 +1047,7 @@ and links to more detailed information about each thing.
 | Willis Electric Co., Ltd. | [ZW78S](willis/zw78s_0_0.md) |  | ```willis_zw78s_00_000``` | Battery |
 | Wink Inc. | [Motion Sensor](wink/motionsensor_0_0.md) |  | ```wink_motionsensor_00_000``` | Battery |
 | Wink Inc. | [Siren](wink/siren_0_0.md) |  | ```wink_siren_00_000``` | Battery |
-| Wintop | [iModuleDouble](wintop/1122r_1_-999.md) | 1.-999 | ```wintop_1122r_01_004``` | Battery |
+| Wintop | [iModuleDouble](wintop/1122r_1_4.md) | 1.4 | ```wintop_1122r_01_004``` | Battery |
 | Wintop | [PlugInSwitch](wintop/dhsitswpdhs_0_0.md) |  | ```wintop_dhsitswpdhs_00_000``` | Battery |
 | Wintop | [DHS-WIN-BLW-DHS](wintop/dhswinblwdhs_0_0.md) |  | ```wintop_dhswinblwdhs_00_000``` | Battery |
 | Wintop | [DHSZWDMIW01](wintop/dhszwdmiw01_0_0.md) |  | ```wintop_dhszwdmiw01_00_000``` | Battery |
@@ -1073,7 +1073,7 @@ and links to more detailed information about each thing.
 | ASSA ABLOY | [YRD446](yale/yrd446_0_0.md) |  | ```yale_yrd446_00_000``` | Battery |
 | ASSA ABLOY | [YRL210](yale/yrl210_0_0.md) |  | ```yale_yrl210_00_000``` | Battery |
 | ASSA ABLOY | [YRL220](yale/yrl220_0_0.md) |  | ```yale_yrl220_00_000``` | Battery |
-| ASSA ABLOY | [US2.0 CP2-5-3](yale/yrl256_1_-999.md) | 1.-999 | ```yale_yrl256_01_078``` | Battery |
+| ASSA ABLOY | [US2.0 CP2-5-3](yale/yrl256_1_78.md) | 1.78 | ```yale_yrl256_01_078``` | Battery |
 | ASSA ABLOY | [Yale Smart Door Lock Z-Wave Module](yale/zwavemodule_0_0.md) |  | ```yale_zwavemodule_00_000``` | Battery |
 | Zipato | [RGBWE2](zipato/bulb2rgbw_0_0.md) |  | ```zipato_bulb2rgbw_00_000``` | Battery |
 | Zipato | [HM-HS1CA](zipato/hmhs1ca_0_0.md) |  | ```zipato_hmhs1ca_00_000``` | Battery |
@@ -1090,43 +1090,43 @@ and links to more detailed information about each thing.
 | Zipato | [AB02Z_PSE02](zipato/pse02_0_0.md) |  | ```zipato_pse02_00_000``` | Battery |
 | Zipato | [RGBWE27ZW](zipato/rgbwe27zw_0_0.md) |  | ```zipato_rgbwe27zw_00_000``` | Battery |
 | Zipato | [ZD2102-5](zipato/zd2102plus_0_0.md) |  | ```zipato_zd2102plus_00_000``` | Battery |
-| Zipato | [0131](zipato/zipds01z_3_-2997.md) | 3.-2997 to 3.-2997 | ```zipato_zipds01z_03_080``` | Battery |
+| Zipato | [0131](zipato/zipds01z_3_80.md) | 3.80 to 3.80 | ```zipato_zipds01z_03_080``` | Battery |
 | Zipato | [ZIP-PAB01](zipato/zippab01_0_0.md) |  | ```zipato_zippab01_00_000``` | Battery |
 | Zipato | [ZP3102](zipato/zp3102_0_0.md) |  | ```zipato_zp3102_00_000``` | Battery |
 | Zooz | [ZEN06](zooz/zen06_0_0.md) |  | ```zooz_zen06_00_000``` | Battery |
 | Zooz | [ZEN07](zooz/zen07_0_0.md) |  | ```zooz_zen07_00_000``` | Battery |
-| Zooz | [ZEN15](zooz/zen15_0_0.md) | 1.-999 | ```zooz_zen15_00_000``` | Battery |
-| Zooz | [ZEN15](zooz/zen15_1_-999.md) | 1.-999 | ```zooz_zen15_01_004``` | Battery |
+| Zooz | [ZEN15](zooz/zen15_0_0.md) | 1.3 | ```zooz_zen15_00_000``` | Battery |
+| Zooz | [ZEN15](zooz/zen15_1_4.md) | 1.4 | ```zooz_zen15_01_004``` | Battery |
 | Zooz | [ZEN16](zooz/zen16_0_0.md) |  | ```zooz_zen16_00_000``` | Battery |
 | Zooz | [ZEN20](zooz/zen20_0_0.md) |  | ```zooz_zen20_00_000``` | Battery |
-| Zooz | [ZEN21](zooz/zen21_0_0.md) | 2.-1998 | ```zooz_zen21_00_000``` | Battery |
-| Zooz | [ZEN21](zooz/zen21_3_-2997.md) | 3.-2997 | ```zooz_zen21_03_000``` | Battery |
-| Zooz | [ZEN22](zooz/zen22_1_-999.md) | 1.-999 to 1.-999 | ```zooz_zen22_01_000``` | Battery |
-| Zooz | [ZEN22](zooz/zen22_3_-2997.md) | 3.-2997 to 19.-18981 | ```zooz_zen22_03_000``` | Battery |
-| Zooz | [ZEN22](zooz/zen22_20_-19980.md) | 20.-19980 to 20.-19980 | ```zooz_zen22_20_015``` | Battery |
-| Zooz | [ZEN23](zooz/zen23_0_0.md) | 2.-1998 | ```zooz_zen23_00_000``` | Battery |
-| Zooz | [ZEN23](zooz/zen23v3_3_-2997.md) | 3.-2997 | ```zooz_zen23v3_03_000``` | Battery |
-| Zooz | [ZEN24](zooz/zen24_1_-999.md) | 1.-999 to 1.-999 | ```zooz_zen24_01_000``` | Battery |
-| Zooz | [ZEN24](zooz/zen24_3_-2997.md) | 3.-2997 to 3.-2997 | ```zooz_zen24_03_000``` | Battery |
-| Zooz | [ZEN24](zooz/zen24_20_-19980.md) | 20.-19980 to 20.-19980 | ```zooz_zen24_20_015``` | Battery |
-| Zooz | [ZEN25](zooz/zen25_0_0.md) | 1.-999 | ```zooz_zen25_00_000``` | Battery |
-| Zooz | [ZEN25](zooz/zen25_2_-1998.md) | 2.-1998 | ```zooz_zen25_02_000``` | Battery |
-| Zooz | [ZEN26](zooz/zen26_0_0.md) | 1.-999 | ```zooz_zen26_00_000``` | Battery |
-| Zooz | [ZEN26](zooz/zen26v2_2_-1998.md) | 2.-1998 | ```zooz_zen26v2_02_000``` | Battery |
-| Zooz | [ZEN27](zooz/zen27_0_0.md) | 1.-999 | ```zooz_zen27_00_000``` | Battery |
-| Zooz | [ZEN27](zooz/zen27v2_2_-1998.md) | 2.-1998 | ```zooz_zen27v2_02_000``` | Battery |
+| Zooz | [ZEN21](zooz/zen21_0_0.md) | 2.9 | ```zooz_zen21_00_000``` | Battery |
+| Zooz | [ZEN21](zooz/zen21_3_0.md) | 3.0 | ```zooz_zen21_03_000``` | Battery |
+| Zooz | [ZEN22](zooz/zen22_1_0.md) | 1.0 to 1.255 | ```zooz_zen22_01_000``` | Battery |
+| Zooz | [ZEN22](zooz/zen22_3_0.md) | 3.0 to 19.0 | ```zooz_zen22_03_000``` | Battery |
+| Zooz | [ZEN22](zooz/zen22_20_15.md) | 20.15 to 20.15 | ```zooz_zen22_20_015``` | Battery |
+| Zooz | [ZEN23](zooz/zen23_0_0.md) | 2.9 | ```zooz_zen23_00_000``` | Battery |
+| Zooz | [ZEN23](zooz/zen23v3_3_0.md) | 3.0 | ```zooz_zen23v3_03_000``` | Battery |
+| Zooz | [ZEN24](zooz/zen24_1_0.md) | 1.0 to 1.255 | ```zooz_zen24_01_000``` | Battery |
+| Zooz | [ZEN24](zooz/zen24_3_0.md) | 3.0 to 3.255 | ```zooz_zen24_03_000``` | Battery |
+| Zooz | [ZEN24](zooz/zen24_20_15.md) | 20.15 to 20.15 | ```zooz_zen24_20_015``` | Battery |
+| Zooz | [ZEN25](zooz/zen25_0_0.md) | 1.255 | ```zooz_zen25_00_000``` | Battery |
+| Zooz | [ZEN25](zooz/zen25_2_0.md) | 2.0 | ```zooz_zen25_02_000``` | Battery |
+| Zooz | [ZEN26](zooz/zen26_0_0.md) | 1.9 | ```zooz_zen26_00_000``` | Battery |
+| Zooz | [ZEN26](zooz/zen26v2_2_0.md) | 2.0 | ```zooz_zen26v2_02_000``` | Battery |
+| Zooz | [ZEN27](zooz/zen27_0_0.md) | 1.255 | ```zooz_zen27_00_000``` | Battery |
+| Zooz | [ZEN27](zooz/zen27v2_2_0.md) | 2.0 | ```zooz_zen27v2_02_000``` | Battery |
 | Zooz | [ZEN30](zooz/zen30_0_0.md) |  | ```zooz_zen30_00_000``` | Battery |
 | Zooz | [ZEN31](zooz/zen31_0_0.md) |  | ```zooz_zen31_00_000``` | Battery |
 | Zooz | [ZSE08](zooz/zse08_0_0.md) |  | ```zooz_zse08_00_000``` | Battery |
 | Zooz | [ZSE09](zooz/zse09_0_0.md) |  | ```zooz_zse09_00_000``` | Battery |
 | Zooz | [ZSE18](zooz/zse18_0_0.md) |  | ```zooz_zse18_00_000``` | Battery |
 | Zooz | [ZSE19 ](zooz/zse19_0_0.md) |  | ```zooz_zse19_00_000``` | Battery |
-| Zooz | [ZSE29](zooz/zse29_0_0.md) | 1.-999 | ```zooz_zse29_00_000``` | Battery |
-| Zooz | [ZSE29](zooz/zse29v2_2_-1998.md) | 2.-1998 | ```zooz_zse29v2_02_000``` | Battery |
+| Zooz | [ZSE29](zooz/zse29_0_0.md) | 1.9 | ```zooz_zse29_00_000``` | Battery |
+| Zooz | [ZSE29](zooz/zse29v2_2_0.md) | 2.0 | ```zooz_zse29v2_02_000``` | Battery |
 | Zooz | [ZSE30](zooz/zse30_0_0.md) |  | ```zooz_zse30_00_000``` | Battery |
 | Zooz | [ZSE33](zooz/zse33_0_0.md) |  | ```zooz_zse33_00_000``` | Battery |
-| Zooz | [ZSE40](zooz/zse40_0_0.md) | 17.-16983 | ```zooz_zse40_00_000``` | Battery |
-| Zooz | [ZSE40 v2](zooz/zse40v2_17_-16983.md) | 17.-16983 | ```zooz_zse40v2_17_009``` | Battery |
+| Zooz | [ZSE40](zooz/zse40_0_0.md) | 17.8 | ```zooz_zse40_00_000``` | Battery |
+| Zooz | [ZSE40 v2](zooz/zse40v2_17_9.md) | 17.9 | ```zooz_zse40v2_17_009``` | Battery |
 | Zooz | [ZST10](zooz/zst10_0_0.md) |  | ```zooz_zst10_00_000``` | Battery |
 | Z-Wave.Me | [06436](zwaveme/06436_0_0.md) |  | ```zwaveme_06436_00_000``` | Battery |
 | Z-Wave.Me | [CSI_TEST](zwaveme/csitest_0_0.md) |  | ```zwaveme_csitest_00_000``` | Battery |
