@@ -9,7 +9,7 @@ userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
-    AR=`dpkg --print-architecture`
+    AR=`uname -m`
 }
 
 dataDirs() {
