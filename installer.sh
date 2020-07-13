@@ -32,7 +32,7 @@ cat > "$CONFIG" <<- EOF
 # OpenHAB service environment
 USER_ID=${ID}
 GROUP_ID=${GR}
-OH_VERSION=2.5.3
+OH_VERSION=2.5.6
 ARCH=${AR}
 EOF
 }
