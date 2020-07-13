@@ -10,6 +10,10 @@ userCheck() {
     ID=`id -u openhab`
     GR=`id -g openhab`
     AR=`uname -m`
+    if(${AR} == "armv71")
+    {
+        AR= "armv7"
+    }
 }
 
 dataDirs() {
