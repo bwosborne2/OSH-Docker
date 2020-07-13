@@ -12,7 +12,7 @@ userCheck() {
     AR=`uname -m`
     echo ${AR}
     if [ ${AR} == "armv71"]
-    then
+      then
         AR= "armv7"
     fi
     echo ${AR}
