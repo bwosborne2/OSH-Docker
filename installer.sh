@@ -39,7 +39,6 @@ cat > "$CONFIG" <<- EOF
 USER_ID=${ID}
 GROUP_ID=${GR}
 OH_VERSION=2.5.6
-ARCH=${AR}
 EOF
 }
 
