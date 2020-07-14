@@ -11,7 +11,7 @@ userCheck() {
     GR=`id -g openhab`
     AR=`uname -m`
     echo ${AR}
-    if [ ${AR} == "armv71"]
+    if [ ${AR} == "armv7l"]
       then
         AR= "armv7"
     fi
