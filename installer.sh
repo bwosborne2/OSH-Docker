@@ -9,6 +9,7 @@ userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
+}
 
 dataDirs() {
     echo -e "Data Directory Setup"
