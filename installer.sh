@@ -13,7 +13,7 @@ userCheck() {
     echo ${AR}
     if [ ${AR} == "armv7l" ]
       then
-        AR="armhf"
+        AR="armv7"
     fi
     echo ${AR}
 }
