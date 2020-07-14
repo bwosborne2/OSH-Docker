@@ -9,14 +9,6 @@ userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
-    AR=`uname -m`
-    echo ${AR}
-    if [ ${AR} == "armv7l" ]
-      then
-        AR="armhf"
-    fi
-    echo ${AR}
-}
 
 dataDirs() {
     echo -e "Data Directory Setup"
