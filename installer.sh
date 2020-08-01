@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 SCRIPT_VERSION=.0.0.2
 
-# Local Paths
-URL_DOCKER_COMPOSE="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/docker-compose.yml"
-URL_SERVICE_OPENHAB="https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/files/openhab.service"
+VERSION=2,5,7
 
 userCheck() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
@@ -26,30 +24,42 @@ dockerConfig() {
     CONFIG=/opt/openhab/docker/.env
     
     echo -e "In dockerConfig"
-# Write configuration
-cat > "$CONFIG" <<- EOF
+    # Write configuration
+    cat > "$CONFIG" <<- EOF
 # OpenHAB service environment
 USER_ID=${ID}
 GROUP_ID=${GR}
-OH_VERSION=2.5.7
+OPENHAB_HTTP_PORT=8080
+OPENHAB_HTTPS_PORT=8443
 EOF
+    #!/usr/bin/env bash
+    SCRIPT=/opt/openhab/docker/oh-start.sh
+    echo -e "Writing the startup script"
+    cat > "$SCRIPT" <<- EOF
+docker run \
+--name openhab \
+-p 8080:8080 \
+-p 8443:8443 \
+-v /etc/localtime:/etc/localtine:ro \
+-v /opt/openhab/addons:/openhab/addons \
+-v /opt/openhab/conf:/openhab/conf \
+-v /opt/openhab/userdata:/openhab/userdata \
+--env-file /opt/openhab/docker/.env \
+-d \
+--restart=always \
+openhab/openhab:$VERSION
+EOF
+    # Make the script executable
+    chmod +x "$SCRIPT"
+
 }
 
 dockerService() {
-    echo "[Info] Install openHAB startup scripts"
-    curl -sL  ${URL_DOCKER_COMPOSE} > /opt/openhab/docker/docker-compose.yml
-    curl -sL  ${URL_SERVICE_OPENHAB} > /etc/systemd/system/openhab.service
-
-    systemctl daemon-reload
-    systemctl enable openhab.service
-    
-    echo "Downloading Docker Image"
-    cd /opt/openhab/docker
-    docker-compose up --no-start
+    echo Downloading and Starting OpenHAB
+    /opt/openhab/docker/oh-start.sh
 }
 
 userCheck
 dataDirs
 dockerConfig
 dockerService
-systemctl start openhab

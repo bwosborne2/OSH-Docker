@@ -8,8 +8,24 @@ https://docs.docker.com/install/linux/linux-postinstall/
 ```
 # Preparation
 su -
-apt-get install sudo curl
+apt-get install sudo
 adduser {username] sudo
+
+apt-get install \
+  apt-transport-https \
+  ca-certificates \
+  curl \
+  gnupg-agent \
+  software-properties-common
+
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+
+add-apt-repository \
+  "deb [arch=amd64] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) \
+  stable"
+
+apt-get update
 ```
 ```
 # Relogin as [username]
@@ -21,12 +37,7 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 ```
 # Install Docker Engine - Community
-curl -fsSL get.docker.com | sudo sh
-```
-
-```
-# Install Docker Compose
-sudo apt-get install -y docker-compose
+apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
 ---
