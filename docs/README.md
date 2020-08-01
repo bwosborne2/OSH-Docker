@@ -50,17 +50,8 @@ curl -sL "https://raw.githubusercontent.com/bwosborne2/OSH-Docker/master/install
 ---
          
 ```
-# Commands
-sudo systemctl status openhab
-sudo systemctl stop openhab
-```
----
-```
 # To clean up
-sudo systemctl stop openhab
-sudo systemctl disable openhab
-sudo rm /etc/systemd/system/openhab.service
-
+sudo docker stop openhab
 sudo userdel -r openhab
 
 # Clean up Docker
