@@ -1,22 +1,52 @@
 #!/usr/bin/env bash
-SCRIPT_VERSION=.0.0.2
+SCRIPT_VERSION=.0.0.3
 
 VERSION=2.5.7
 
 userCheck() {
     echo -e "openHAB User Check"
+    if getent passwd | cut -d: -f1 | grep openhab > /dev/null 2>&1;  then
+        echo -e "User openhab already exists"
+        select choice in "Use existing user"  "Delete existing user & home directory" "Exit"; do
+            case $choice in
+                "Delete existing user & home directory" ) userDel; break;;
+                "Use existing user" ) userId; break;;
+                "Exit" ) exit; break;;
+            esac
+        done
+    else
+        userAdd
+    fi
+}
+
+userDel() {
+    userdel -rf openhab > /dev/null 2>&1
+    userAdd
+}
+
+userAdd() {
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
+    userId
+
+}
+
+userId () {
     ID=`id -u openhab`
     GR=`id -g openhab`
 }
 
 dataDirs() {
     echo -e "Data Directory Setup"
-    sudo mkdir /opt/openhab/conf
-    sudo mkdir /opt/openhab/userdata
-    sudo mkdir /opt/openhab/addons
-    sudo mkdir /opt/openhab/docker
-    sudo chown -R openhab:openhab /opt/openhab
+    if [ -d /opt/openhab/conf ]
+      then
+        echo -e "Directories already exist"
+      else
+        mkdir /opt/openhab/conf
+        mkdir /opt/openhab/userdata
+        mkdir /opt/openhab/addons
+        mkdir /opt/openhab/docker
+        chown -R openhab:openhab /opt/openhab
+    fi
 
 }
 
