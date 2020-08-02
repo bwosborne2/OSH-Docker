@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 SCRIPT_VERSION=.0.0.2
 
-VERSION=2,5,7
+VERSION=2.5.7
 
 userCheck() {
+    echo -e "openHAB User Check"
     sudo useradd -d /opt/openhab -m -r -s /sbin/nologin openhab
     ID=`id -u openhab`
     GR=`id -g openhab`
