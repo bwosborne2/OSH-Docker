@@ -76,6 +76,7 @@ docker run \
 -v /opt/openhab/conf:/openhab/conf \
 -v /opt/openhab/userdata:/openhab/userdata \
 --env-file /opt/openhab/docker/.env \
+--privileged
 -d \
 --restart=always \
 openhab/openhab:$VERSION
