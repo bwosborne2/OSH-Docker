@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-SCRIPT_VERSION=.0.0.3
+SCRIPT_VERSION=.0.0.4
 
-VERSION=2.5.9
+VERSION=3.0.0-snapshot
 
 userCheck() {
     echo -e "openHAB User Check"
