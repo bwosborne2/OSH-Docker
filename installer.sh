@@ -63,7 +63,7 @@ USER_ID=${ID}
 GROUP_ID=${GR}
 OPENHAB_HTTP_PORT=8080
 OPENHAB_HTTPS_PORT=8443
-EXTRA_JAVA_OPTS=-Duser.timezone=\$TIMEZONE
+EXTRA_JAVA_OPTS=-Duser.timezone=$(readlink /etc/localtime | awk -F/ '{print $5"/"$6}')
 EOF
     #!/usr/bin/env bash
     SCRIPT=/opt/openhab/docker/oh-start.sh
