@@ -53,7 +53,7 @@ dataDirs() {
 dockerConfig() {
 
     CONFIG=/opt/openhab/docker/.env
-    TIMEZONE = `readlink /etc/localtime | awk -F/ '{print $5"/"$6}'`
+    TIMEZONE=`readlink /etc/localtime | awk -F/ '{print $5"/"$6}'`
     
     echo -e "In dockerConfig"
     # Write configuration
