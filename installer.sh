@@ -72,7 +72,7 @@ docker run \
 --name openhab \
 -p 8080:8080 \
 -p 8443:8443 \
--v /etc/localtime:/etc/localtine:ro \
+-v /etc/localtime:/etc/localtime:ro \
 -v /opt/openhab/addons:/openhab/addons \
 -v /opt/openhab/conf:/openhab/conf \
 -v /opt/openhab/userdata:/openhab/userdata \
