@@ -56,7 +56,7 @@ dockerConfig() {
  
     echo -e "In dockerConfig"
     # Write configuration
-    csudo at > "$CONFIG" <<- EOF
+    sudo at > "$CONFIG" <<- EOF
 # OpenHAB service environment
 USER_ID=${ID}
 GROUP_ID=${GR}
@@ -64,7 +64,7 @@ OPENHAB_HTTP_PORT=8080
 OPENHAB_HTTPS_PORT=8443
 EXTRA_JAVA_OPTS=-Duser.timezone=$(readlink /etc/localtime | awk -F/ '{print $5"/"$6}')
 EOF
-    #!/usr/bin/env bash
+
     SCRIPT=/opt/openhab/docker/oh-start.sh
     echo -e "Writing the startup script"
     sudo cat > "$SCRIPT" <<- EOF
@@ -83,7 +83,7 @@ docker run \
 openhab/openhab:$VERSION
 EOF
     # Make the script executable
-    chmod +x "$SCRIPT"
+    sudo chmod +x "$SCRIPT"
 
 }
 
