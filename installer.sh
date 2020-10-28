@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-SCRIPT_VERSION=.0.0.4
+SCRIPT_VERSION=.0.0.5
 
 VERSION=3.0.0-snapshot
 
@@ -41,11 +41,11 @@ dataDirs() {
       then
         echo -e "Directories already exist"
       else
-        mkdir /opt/openhab/conf
-        mkdir /opt/openhab/userdata
-        mkdir /opt/openhab/addons
-        mkdir /opt/openhab/docker
-        chown -R openhab:openhab /opt/openhab
+        sudo mkdir /opt/openhab/conf
+        sudo mkdir /opt/openhab/userdata
+        sudo mkdir /opt/openhab/addons
+        sudo mkdir /opt/openhab/docker
+        sudo chown -R openhab:openhab /opt/openhab
     fi
 
 }
@@ -56,7 +56,7 @@ dockerConfig() {
  
     echo -e "In dockerConfig"
     # Write configuration
-    cat > "$CONFIG" <<- EOF
+    csudo at > "$CONFIG" <<- EOF
 # OpenHAB service environment
 USER_ID=${ID}
 GROUP_ID=${GR}
@@ -67,7 +67,7 @@ EOF
     #!/usr/bin/env bash
     SCRIPT=/opt/openhab/docker/oh-start.sh
     echo -e "Writing the startup script"
-    cat > "$SCRIPT" <<- EOF
+    sudo cat > "$SCRIPT" <<- EOF
 docker run \
 --name openhab \
 -p 8080:8080 \
