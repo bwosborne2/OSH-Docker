@@ -56,8 +56,8 @@ dockerConfig() {
  
     echo -e "In dockerConfig"
     # Write configuration
-    sudo at > "$CONFIG" <<- EOF
-# OpenHSmartHouose service environment
+    sudo cat > "$CONFIG" <<- EOF
+# OpenSmartHouse service environment
 USER_ID=${ID}
 GROUP_ID=${GR}
 OSH_HTTP_PORT=8181
