@@ -56,7 +56,7 @@ dockerConfig() {
  
     echo -e "In dockerConfig"
     # Write configuration
-    sudo at > "$CONFIG" <<- EOF
+    sudo cat > "$CONFIG" <<- EOF
 # OpenHAB service environment
 USER_ID=${ID}
 GROUP_ID=${GR}
